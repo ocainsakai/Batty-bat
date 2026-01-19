@@ -9,7 +9,7 @@ Event Bus là một hệ thống messaging pattern giúp các components trong g
 ```
 EventSystem/
 ├── IEvent.cs                    # Base interface cho tất cả events
-├── EventBus.cs                  # Core Event Bus singleton
+├── EventBus.cs                  # Core Event Bus (pure static class)
 ├── EventDebugger.cs            # Debug tool
 ├── Events/
 │   ├── GameEvents.cs           # Game-related events
@@ -19,6 +19,8 @@ EventSystem/
     └── EventBusExample.cs      # Usage examples
 ```
 
+**Lưu ý:** EventBus là pure static class - không cần `.Instance`, gọi trực tiếp `EventBus.Publish()`, `EventBus.Subscribe()`, etc.
+
 ## Cách Sử Dụng Cơ Bản
 
 ### 1. Subscribe to Events (Đăng ký nhận events)
@@ -26,8 +28,8 @@ EventSystem/
 ```csharp
 private void OnEnable()
 {
-    EventBus.Instance.Subscribe<GameStartedEvent>(OnGameStarted);
-    EventBus.Instance.Subscribe<ScoreChangedEvent>(OnScoreChanged);
+    EventBus.Subscribe<GameStartedEvent>(OnGameStarted);
+    EventBus.Subscribe<ScoreChangedEvent>(OnScoreChanged);
 }
 
 private void OnGameStarted(GameStartedEvent evt)
@@ -48,8 +50,8 @@ private void OnScoreChanged(ScoreChangedEvent evt)
 ```csharp
 private void OnDisable()
 {
-    EventBus.Instance.Unsubscribe<GameStartedEvent>(OnGameStarted);
-    EventBus.Instance.Unsubscribe<ScoreChangedEvent>(OnScoreChanged);
+    EventBus.Unsubscribe<GameStartedEvent>(OnGameStarted);
+    EventBus.Unsubscribe<ScoreChangedEvent>(OnScoreChanged);
 }
 ```
 
@@ -57,13 +59,13 @@ private void OnDisable()
 
 ```csharp
 // Publish một event đơn giản
-EventBus.Instance.Publish(new GameStartedEvent(1.5f));
+EventBus.Publish(new GameStartedEvent(1.5f));
 
 // Publish event với nhiều data
-EventBus.Instance.Publish(new ScoreChangedEvent(oldScore: 10, newScore: 20));
+EventBus.Publish(new ScoreChangedEvent(oldScore: 10, newScore: 20));
 
 // Publish event khi player chết
-EventBus.Instance.Publish(new PlayerDiedEvent(
+EventBus.Publish(new PlayerDiedEvent(
     deathPosition: transform.position,
     causeOfDeath: "Collision with obstacle"
 ));
@@ -115,7 +117,7 @@ public class PowerUpCollectedEvent : IEvent
 
 ```csharp
 // Subscribe
-EventBus.Instance.Subscribe<PowerUpCollectedEvent>(OnPowerUpCollected);
+EventBus.Subscribe<PowerUpCollectedEvent>(OnPowerUpCollected);
 
 // Handler
 private void OnPowerUpCollected(PowerUpCollectedEvent evt)
@@ -124,7 +126,7 @@ private void OnPowerUpCollected(PowerUpCollectedEvent evt)
 }
 
 // Publish
-EventBus.Instance.Publish(new PowerUpCollectedEvent(
+EventBus.Publish(new PowerUpCollectedEvent(
     powerUpType: "Speed Boost",
     bonusPoints: 50,
     position: transform.position
@@ -139,7 +141,7 @@ EventBus.Instance.Publish(new PowerUpCollectedEvent(
    ```csharp
    private void OnDisable()
    {
-       EventBus.Instance.Unsubscribe<GameStartedEvent>(OnGameStarted);
+       EventBus.Unsubscribe<GameStartedEvent>(OnGameStarted);
    }
    ```
 
@@ -170,7 +172,7 @@ EventBus.Instance.Publish(new PowerUpCollectedEvent(
    // BAD - sẽ gây memory leak!
    private void OnEnable()
    {
-       EventBus.Instance.Subscribe<GameStartedEvent>(OnGameStarted);
+       EventBus.Subscribe<GameStartedEvent>(OnGameStarted);
    }
    // Thiếu OnDisable để unsubscribe!
    ```
@@ -178,8 +180,8 @@ EventBus.Instance.Publish(new PowerUpCollectedEvent(
 2. **Không subscribe nhiều lần cùng một handler**
    ```csharp
    // BAD
-   EventBus.Instance.Subscribe<GameStartedEvent>(OnGameStarted);
-   EventBus.Instance.Subscribe<GameStartedEvent>(OnGameStarted); // Duplicate!
+   EventBus.Subscribe<GameStartedEvent>(OnGameStarted);
+   EventBus.Subscribe<GameStartedEvent>(OnGameStarted); // Duplicate!
    ```
 
 3. **Không throw exceptions trong event handlers**
@@ -223,13 +225,13 @@ debugger.ClearHistory();
 ### Kiểm tra số lượng listeners
 
 ```csharp
-int listenerCount = EventBus.Instance.GetListenerCount<GameStartedEvent>();
+int listenerCount = EventBus.GetListenerCount<GameStartedEvent>();
 Debug.Log($"GameStartedEvent has {listenerCount} listeners");
 
-bool hasListeners = EventBus.Instance.HasListeners<ScoreChangedEvent>();
+bool hasListeners = EventBus.HasListeners<ScoreChangedEvent>();
 if (hasListeners)
 {
-    EventBus.Instance.Publish(new ScoreChangedEvent(0, 100));
+    EventBus.Publish(new ScoreChangedEvent(0, 100));
 }
 ```
 
@@ -240,9 +242,9 @@ if (hasListeners)
 // AudioManager.cs
 private void OnEnable()
 {
-    EventBus.Instance.Subscribe<GameStartedEvent>(OnGameStarted);
-    EventBus.Instance.Subscribe<GameOverEvent>(OnGameOver);
-    EventBus.Instance.Subscribe<ScoreChangedEvent>(OnScoreChanged);
+    EventBus.Subscribe<GameStartedEvent>(OnGameStarted);
+    EventBus.Subscribe<GameOverEvent>(OnGameOver);
+    EventBus.Subscribe<ScoreChangedEvent>(OnScoreChanged);
 }
 
 private void OnGameStarted(GameStartedEvent evt)
@@ -261,8 +263,8 @@ private void OnScoreChanged(ScoreChangedEvent evt)
 // AnalyticsManager.cs
 private void OnEnable()
 {
-    EventBus.Instance.Subscribe<GameOverEvent>(OnGameOver);
-    EventBus.Instance.Subscribe<HighScoreAchievedEvent>(OnHighScore);
+    EventBus.Subscribe<GameOverEvent>(OnGameOver);
+    EventBus.Subscribe<HighScoreAchievedEvent>(OnHighScore);
 }
 
 private void OnGameOver(GameOverEvent evt)
@@ -280,7 +282,7 @@ private void OnGameOver(GameOverEvent evt)
 // ScoreUI.cs
 private void OnEnable()
 {
-    EventBus.Instance.Subscribe<ScoreChangedEvent>(OnScoreChanged);
+    EventBus.Subscribe<ScoreChangedEvent>(OnScoreChanged);
 }
 
 private void OnScoreChanged(ScoreChangedEvent evt)
@@ -292,7 +294,7 @@ private void OnScoreChanged(ScoreChangedEvent evt)
 
 ## Performance Tips
 
-1. **Event Bus là singleton** - Không cần cache reference
+1. **Event Bus là pure static class** - Gọi trực tiếp, không cần cache reference
 2. **Unsubscribe ngay khi không cần** - Giảm overhead
 3. **Tránh publish events quá thường xuyên** - Cân nhắc batching
 4. **Sử dụng struct thay vì class cho simple events** (optional optimization)

@@ -1,44 +1,44 @@
+using UnityEngine;
 using Core.EventSystem;
+using Games.Worm.Data;
 
 namespace Games.Worm.Events
 {
     /// <summary>
-    /// Game-related events for Worm game
+    /// Game-level events for Worm game
     /// </summary>
 
     public class GameStartedEvent : IEvent
     {
-        public float GameSpeed { get; set; }
+        public float StartTime { get; set; }
 
-        public GameStartedEvent(float gameSpeed = 1f)
+        public GameStartedEvent(float startTime)
         {
-            GameSpeed = gameSpeed;
+            StartTime = startTime;
         }
     }
 
     public class GameOverEvent : IEvent
     {
-        public int FinalScore { get; set; }
-        public string Reason { get; set; }
+        public float FinalSize { get; set; }
+        public int TotalResourcesCollected { get; set; }
+        public float PlayTime { get; set; }
 
-        public GameOverEvent(int finalScore, string reason = "Player died")
+        public GameOverEvent(float finalSize, int totalResources, float playTime)
         {
-            FinalScore = finalScore;
-            Reason = reason;
+            FinalSize = finalSize;
+            TotalResourcesCollected = totalResources;
+            PlayTime = playTime;
         }
     }
 
-    public class ScoreChangedEvent : IEvent
+    public class GamePausedEvent : IEvent
     {
-        public int OldScore { get; set; }
-        public int NewScore { get; set; }
-        public int Delta { get; set; }
+        public bool IsPaused { get; set; }
 
-        public ScoreChangedEvent(int oldScore, int newScore)
+        public GamePausedEvent(bool isPaused)
         {
-            OldScore = oldScore;
-            NewScore = newScore;
-            Delta = newScore - oldScore;
+            IsPaused = isPaused;
         }
     }
 }

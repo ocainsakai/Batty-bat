@@ -25,7 +25,7 @@ namespace Games.Worm
         private void OnDestroy()
         {
             // Clean up event subscriptions
-            EventBus.Instance.Clear();
+            EventBus.Clear();
         }
 
         private void Start()
@@ -37,13 +37,12 @@ namespace Games.Worm
         public void StartGame()
         {
             // TODO: Implement game start logic
-            EventBus.Instance.Publish(new GameStartedEvent(1f));
+            EventBus.Publish(new GameStartedEvent(1f));
         }
 
         public void GameOver()
         {
-            // TODO: Implement game over logic
-            EventBus.Instance.Publish(new GameOverEvent(0, "Game Over"));
+            
         }
     }
 }

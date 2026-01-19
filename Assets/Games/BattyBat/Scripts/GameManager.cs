@@ -52,7 +52,7 @@ namespace Games.BattyBat
         {
             // Clean up event subscriptions when GameManager is destroyed
             // This prevents memory leaks
-            EventBus.Instance.Clear();
+            EventBus.Clear();
         }
 
         private void Start()
@@ -105,7 +105,7 @@ namespace Games.BattyBat
             if (_battyBat != null) _battyBat.gameObject.SetActive(true);
 
             // Publish GameStartedEvent
-            EventBus.Instance.Publish(new GameStartedEvent(_gameSpeed));
+            EventBus.Publish(new GameStartedEvent(_gameSpeed));
         }
 
         public void AddScore(int amount)
@@ -115,7 +115,7 @@ namespace Games.BattyBat
             UpdateScoreUI();
 
             // Publish ScoreChangedEvent
-            EventBus.Instance.Publish(new ScoreChangedEvent(oldScore, _currentScore));
+            EventBus.Publish(new ScoreChangedEvent(oldScore, _currentScore));
         }
 
         private void UpdateScoreUI()
@@ -137,7 +137,7 @@ namespace Games.BattyBat
             CheckHighScore();
 
             // Publish GameOverEvent
-            EventBus.Instance.Publish(new GameOverEvent(_currentScore));
+            EventBus.Publish(new GameOverEvent(_currentScore));
 
             Debug.Log("Game Over!");
         }
@@ -151,7 +151,7 @@ namespace Games.BattyBat
                 PlayerPrefs.Save();
 
                 // Publish HighScoreAchievedEvent
-                EventBus.Instance.Publish(new HighScoreAchievedEvent(oldHighScore, _currentScore));
+                EventBus.Publish(new HighScoreAchievedEvent(oldHighScore, _currentScore));
             }
 
             int highScore = PlayerPrefs.GetInt("HighScore", 0);
