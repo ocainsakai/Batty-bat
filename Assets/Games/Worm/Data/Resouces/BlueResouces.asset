@@ -9,18 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a7ea8f84054d453b9e3d3f58c265d65, type: 3}
+  m_Script: {fileID: 11500000, guid: 22df85ae247254dd986d17b97a424395, type: 3}
   m_Name: BlueResouces
   m_EditorClassIdentifier: 
-  ResourceName: Resource
-  ResourceID: resource_default
-  ResourceColor: {r: 1, g: 1, b: 1, a: 1}
-  ResourceSprite: {fileID: 0}
+  CollectibleName: Blue
+  CollectibleID: collectable_blue
+  CollectibleColor: {r: 0.0141509175, g: 0.13470583, b: 1, a: 1}
+  CollectibleSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   Size: 0.5
-  GrowthValue: 1
+  Value: 1
+  Type: 0
   RespawnTime: 5
   MaxSpawnCount: 10
   Pattern: 0
   SpawnAreaMin: {x: -10, y: -10}
   SpawnAreaMax: {x: 10, y: 10}
   Rarity: 0
+  CollectionEffect: {fileID: 0}
+  CollectionSound: {fileID: 0}

@@ -5,9 +5,15 @@ using Games.Worm.Data;
 namespace Games.Worm.Events
 {
     /// <summary>
-    /// Resource-related events
+    /// Worm-specific resource events.
+    /// Note: Core provides generic events (CollectableCollectedEvent, CollectableAddedEvent)
+    /// These Worm-specific events are kept for backward compatibility and Worm-specific needs.
     /// </summary>
 
+    /// <summary>
+    /// Fired when a resource is collected by the worm.
+    /// Use this for Worm-specific logic (growth animations, score, etc.)
+    /// </summary>
     public class ResourceCollectedEvent : IEvent
     {
         public ResourceDefinition Resource { get; set; }
@@ -20,6 +26,10 @@ namespace Games.Worm.Events
         }
     }
 
+    /// <summary>
+    /// Fired when inventory contents change.
+    /// Consider using Core's CollectableAddedEvent instead for new code.
+    /// </summary>
     public class InventoryChangedEvent : IEvent
     {
         public ResourceDefinition Resource { get; set; }
@@ -34,6 +44,9 @@ namespace Games.Worm.Events
         }
     }
 
+    /// <summary>
+    /// Fired when a resource is spawned.
+    /// </summary>
     public class ResourceSpawnedEvent : IEvent
     {
         public ResourceDefinition Resource { get; set; }

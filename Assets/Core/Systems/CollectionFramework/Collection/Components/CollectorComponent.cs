@@ -37,17 +37,28 @@ namespace Core.Systems.CollectableSystem
 
         private void OnTriggerEnter2D(Collider2D other)
         {
+            Debug.Log($"[CollectorComponent] OnTriggerEnter2D with: {other.gameObject.name}");
+            
             // Check cooldown
             if (Time.time - _lastCollectionTime < collectionCooldown)
+            {
+                Debug.Log("[CollectorComponent] Cooldown active, skipping");
                 return;
+            }
 
             // Check layer
             if (((1 << other.gameObject.layer) & collectableLayer) == 0)
+            {
+                Debug.Log($"[CollectorComponent] Layer mismatch. Object layer: {other.gameObject.layer}, collectableLayer mask: {collectableLayer.value}");
                 return;
+            }
 
             var collectable = other.GetComponent<ICollectable>();
+            Debug.Log($"[CollectorComponent] ICollectable found: {collectable != null}");
+            
             if (collectable != null && CanCollect(collectable))
             {
+                Debug.Log("[CollectorComponent] Calling Collect");
                 Collect(collectable);
                 _lastCollectionTime = Time.time;
             }

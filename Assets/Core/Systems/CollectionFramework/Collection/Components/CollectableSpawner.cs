@@ -141,17 +141,25 @@ namespace Core.Systems.CollectableSystem
                 _respawnQueue[definition.CollectibleID]++;
             }
 
-            // Wait for respawn time
-            await UniTask.Delay(
-                System.TimeSpan.FromSeconds(definition.RespawnTime),
-                cancellationToken: this.GetCancellationTokenOnDestroy()
-            );
-
-            // Decrement queue and spawn
-            if (_respawnQueue.ContainsKey(definition.CollectibleID))
+            try
             {
-                _respawnQueue[definition.CollectibleID]--;
-                Spawn(definition);
+                // Wait for respawn time
+                await UniTask.Delay(
+                    System.TimeSpan.FromSeconds(definition.RespawnTime),
+                    cancellationToken: this.GetCancellationTokenOnDestroy()
+                );
+
+                // Decrement queue and spawn
+                if (_respawnQueue.ContainsKey(definition.CollectibleID))
+                {
+                    _respawnQueue[definition.CollectibleID]--;
+                    Spawn(definition);
+                }
+            }
+            catch (System.OperationCanceledException)
+            {
+                // Expected when object is destroyed or play mode is stopped
+                // No action needed
             }
         }
 

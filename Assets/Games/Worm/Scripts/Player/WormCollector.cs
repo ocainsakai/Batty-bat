@@ -1,111 +1,135 @@
 using UnityEngine;
 using Core.EventSystem;
-using Core.Patterns.ObjectPool;
+using Core.Systems.CollectableSystem;
 using Games.Worm.Events;
-using Games.Worm.Resources;
+using Games.Worm.Data;
 
 namespace Games.Worm.Player
 {
     /// <summary>
     /// Handles resource collection when worm collides with resources.
-    /// Integrates with WormGrowth and ResourceInventory.
+    /// Extends CollectorComponent to add Worm-specific growth logic.
     /// </summary>
-    public class WormCollector : MonoBehaviour
+    public class WormCollector : CollectorComponent
     {
-        [Header("Collection")]
-        [SerializeField] private LayerMask resourceLayer;
-        [SerializeField] private float collectionCooldown = 0.1f;
+        [SerializeField] private WormGrowth _growth;
+        [SerializeField] private CollectableInventory _inventory;
 
-        [Header("Visual Feedback")]
-        [SerializeField] private ParticleSystem collectionParticles;
-        [SerializeField] private AudioClip collectionSound;
-
-        private WormGrowth _growth;
-        private ResourceInventory _inventory;
-        private float _lastCollectionTime;
-        private AudioSource _audioSource;
-
-        private void Awake()
+        protected virtual void Awake()
         {
+            Debug.Log("[WormCollector] Awake called");
+            if (_growth == null)
             _growth = GetComponent<WormGrowth>();
-            _inventory = GetComponent<ResourceInventory>();
-            _audioSource = GetComponent<AudioSource>();
+            if (_inventory == null)
+            _inventory = GetComponent<CollectableInventory>();
             
-            if (_audioSource == null)
-            {
-                _audioSource = gameObject.AddComponent<AudioSource>();
-                _audioSource.playOnAwake = false;
-            }
+            Debug.Log($"[WormCollector] WormGrowth found: {_growth != null}");
+            Debug.Log($"[WormCollector] CollectableInventory found: {_inventory != null}");
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // Check cooldown
-            if (Time.time - _lastCollectionTime < collectionCooldown)
-                return;
-
-            // Check if it's a resource
-            if (((1 << other.gameObject.layer) & resourceLayer) == 0)
-                return;
-
-            var resource = other.GetComponent<Resource>();
-            if (resource != null && resource.Definition != null)
+            Debug.Log($"[WormCollector] OnTriggerEnter2D with: {other.gameObject.name} (Layer: {LayerMask.LayerToName(other.gameObject.layer)})");
+            
+            // Try to get collectable
+            var collectable = other.GetComponent<ICollectable>();
+            if (collectable == null)
             {
-                CollectResource(resource);
-                _lastCollectionTime = Time.time;
-            }
-        }
-
-        private void CollectResource(Resource resource)
-        {
-            var definition = resource.Definition;
-            
-            // Add to inventory
-            _inventory.AddResource(definition);
-            
-            // Grow worm
-            _growth.AddGrowth(definition.GrowthValue);
-            
-            // Visual feedback
-            PlayCollectionEffects(resource.transform.position, definition.ResourceColor);
-            
-            // Publish event
-            EventBus.Publish(new ResourceCollectedEvent(
-                definition,
-                resource.transform.position
-            ));
-            
-            // Despawn resource (return to pool)
-            string poolName = "Resource_" + definition.ResourceID;
-            if (PoolManager.HasInstance)
-            {
-                PoolManager.Instance.Despawn(poolName, resource);
+                // Also try Collectable directly
+                var collectableComponent = other.GetComponent<Collectable>();
+                Debug.Log($"[WormCollector] ICollectable found: {collectable != null}, Collectable component: {collectableComponent != null}");
                 
-                // Schedule respawn
-                ResourceSpawner.Instance?.ScheduleRespawn(definition);
+                if (collectableComponent != null)
+                {
+                    collectable = collectableComponent;
+                }
+            }
+            
+            if (collectable != null)
+            {
+                Debug.Log($"[WormCollector] Found collectable: {collectable.Definition?.CollectibleName ?? "null definition"}");
+                
+                if (CanCollect(collectable))
+                {
+                    Debug.Log("[WormCollector] CanCollect = true, calling Collect");
+                    CollectResource(collectable);
+                }
+                else
+                {
+                    Debug.Log("[WormCollector] CanCollect = false");
+                }
             }
             else
             {
-                // Fallback: destroy
-                Destroy(resource.gameObject);
+                Debug.Log("[WormCollector] No ICollectable found on object");
             }
         }
 
-        private void PlayCollectionEffects(Vector3 position, Color color)
+        /// <summary>
+        /// Custom collect method for Worm with growth logic
+        /// </summary>
+        private void CollectResource(ICollectable collectable)
         {
-            // Particles
-            if (collectionParticles != null)
+            if (collectable == null || collectable.Definition == null)
             {
-                collectionParticles.transform.position = position;
-                var main = collectionParticles.main;
-                main.startColor = color;
-                collectionParticles.Play();
+                Debug.LogWarning("[WormCollector] CollectResource: collectable or definition is null");
+                return;
             }
 
-            // Sound
-            if (collectionSound != null && _audioSource != null)
+            var definition = collectable.Definition;
+            Debug.Log($"[WormCollector] Collecting: {definition.CollectibleName}");
+
+            // Add to inventory
+            if (_inventory != null)
             {
-                _audioSource.PlayOneShot(collectionSound);
+                _inventory.Add(definition);
+                Debug.Log($"[WormCollector] Added to inventory");
+            }
+            else
+            {
+                Debug.LogWarning("[WormCollector] No inventory component found!");
+            }
+
+            // Worm-specific: Add growth based on resource
+            if (_growth != null && definition is ResourceDefinition resourceDef)
+            {
+                _growth.AddGrowth(resourceDef.GrowthValue);
+                Debug.Log($"[WormCollector] Added growth: {resourceDef.GrowthValue}");
+            }
+            else
+            {
+                Debug.Log($"[WormCollector] Growth not added. _growth null: {_growth == null}, is ResourceDefinition: {definition is ResourceDefinition}");
+            }
+
+            // Notify collectable
+            collectable.OnCollected(gameObject);
+
+            // Publish Worm-specific event
+            if (definition is ResourceDefinition resDef)
+            {
+                EventBus.Publish(new ResourceCollectedEvent(resDef, transform.position));
+                Debug.Log("[WormCollector] Published ResourceCollectedEvent");
+            }
+
+            // Publish Core event
+            EventBus.Publish(new CollectableCollectedEvent(definition, transform.position, gameObject));
+
+            // Despawn and schedule respawn using Core's CollectableSpawner
+            if (collectable is Collectable collectableComponent)
+            {
+                Debug.Log($"[WormCollector] CollectableSpawner.HasInstance: {CollectableSpawner.HasInstance}");
+                if (CollectableSpawner.HasInstance)
+                {
+                    CollectableSpawner.Instance.Despawn(collectableComponent);
+                    CollectableSpawner.Instance.ScheduleRespawn(definition);
+                    Debug.Log("[WormCollector] Despawned and scheduled respawn");
+                }
+                else
+                {
+                    // Fallback: just deactivate
+                    collectableComponent.gameObject.SetActive(false);
+                    Debug.Log("[WormCollector] No spawner, deactivated object");
+                }
             }
         }
     }

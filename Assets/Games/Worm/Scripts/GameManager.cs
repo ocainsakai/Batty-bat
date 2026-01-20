@@ -1,5 +1,6 @@
 using UnityEngine;
 using Core.EventSystem;
+using Core.Patterns;
 using Games.Worm.Events;
 
 namespace Games.Worm
@@ -8,22 +9,11 @@ namespace Games.Worm
     /// Game Manager for Worm game.
     /// This is a template - implement your game logic here.
     /// </summary>
-    public class GameManager : MonoBehaviour
+    public class GameManager : MonoSingleton<GameManager>
     {
-        public static GameManager Instance { get; private set; }
-
-        private void Awake()
+        protected override void OnDestroy()
         {
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            Instance = this;
-        }
-
-        private void OnDestroy()
-        {
+            base.OnDestroy();
             // Clean up event subscriptions
             EventBus.Clear();
         }
