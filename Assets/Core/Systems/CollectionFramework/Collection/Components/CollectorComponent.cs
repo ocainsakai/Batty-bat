@@ -10,20 +10,20 @@ namespace Core.Systems.CollectableSystem
     public class CollectorComponent : MonoBehaviour, ICollector
     {
         [Header("Collection Settings")]
-        [SerializeField] private LayerMask collectableLayer;
-        [SerializeField] private float collectionCooldown = 0.1f;
+        [SerializeField] protected LayerMask collectableLayer;
+        [SerializeField] protected float collectionCooldown = 0.1f;
 
         [Header("Feedback")]
-        [SerializeField] private ParticleSystem collectionParticles;
-        [SerializeField] private AudioClip collectionSound;
+        [SerializeField] protected ParticleSystem collectionParticles;
+        [SerializeField] protected AudioClip collectionSound;
 
-        private CollectableInventory _inventory;
-        private AudioSource _audioSource;
-        private float _lastCollectionTime;
+        protected CollectableInventory _inventory;
+        protected AudioSource _audioSource;
+        protected float _lastCollectionTime;
 
         public GameObject GameObject => gameObject;
 
-        private void Awake()
+        protected virtual void Awake()
         {
             _inventory = GetComponent<CollectableInventory>();
             _audioSource = GetComponent<AudioSource>();
@@ -35,7 +35,7 @@ namespace Core.Systems.CollectableSystem
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        protected virtual void OnTriggerEnter2D(Collider2D other)
         {
             Debug.Log($"[CollectorComponent] OnTriggerEnter2D with: {other.gameObject.name}");
             
@@ -96,7 +96,7 @@ namespace Core.Systems.CollectableSystem
             return collectable != null && collectable.Definition != null;
         }
 
-        private void PlayFeedback(ICollectable collectable)
+        protected virtual void PlayFeedback(ICollectable collectable)
         {
             var definition = collectable.Definition;
 
