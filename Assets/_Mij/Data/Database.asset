@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc3c3c3993db47938afcf140aa3d2d7, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  fighterDefinitions:
+  - fighterDefinitions: {fileID: 11400000, guid: d803cd4f905c54b3eb2abfb658bee53a,
+      type: 2}
+    AttackRange: 1.5
+    SightRange: 5
+    PatrolRadius: 10
+    MoveSpeed: 3.5
+    AttackSpeed: 1.2
+    MaxHealth: 500
+    Damage: 50
+    sprite: {fileID: -451819609604597691, guid: 9840bc24dca0e40b580b9fa71f2a86ca,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: e8a03612183d44247b08a743433e9a58,
+      type: 2}
+    AttackRange: 8
+    SightRange: 10
+    PatrolRadius: 10
+    MoveSpeed: 2.5
+    AttackSpeed: 0.8
+    MaxHealth: 300
+    Damage: 80
+    sprite: {fileID: -3658056045777689160, guid: 069e26e5bfe494282b973d788b490d9b,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 5874e289fcc75444f8f8166e92542eab,
+      type: 2}
+    AttackRange: 10
+    SightRange: 12
+    PatrolRadius: 10
+    MoveSpeed: 4
+    AttackSpeed: 1.5
+    MaxHealth: 350
+    Damage: 60
+    sprite: {fileID: -1638377338549800941, guid: a293bfc960550492eba60c6289863ae1,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 991c28f1db6bf4b3fb59204e6f7d14b2,
+      type: 2}
+    AttackRange: 1.5
+    SightRange: 5
+    PatrolRadius: 10
+    MoveSpeed: 3.5
+    AttackSpeed: 1.2
+    MaxHealth: 550
+    Damage: 45
+    sprite: {fileID: -5225137229694705418, guid: 269773175a98a4e7d8553d2f352adaa9,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: c48f5955471ab4c9ca04bb5c68813652,
+      type: 2}
+    AttackRange: 8
+    SightRange: 10
+    PatrolRadius: 10
+    MoveSpeed: 2.5
+    AttackSpeed: 0.8
+    MaxHealth: 320
+    Damage: 85
+    sprite: {fileID: 5378571116139007367, guid: c6c0d82254a8a40219afd7b36d32190a,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 65003d2dbb5514508b41f1a2726327d1,
+      type: 2}
+    AttackRange: 10
+    SightRange: 12
+    PatrolRadius: 10
+    MoveSpeed: 4
+    AttackSpeed: 1.5
+    MaxHealth: 370
+    Damage: 65
+    sprite: {fileID: 7690333866790817760, guid: 5fda7bee8b2b947e2817b2a68f34186a,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: a26d6a2e40835495a970a6026b684593,
+      type: 2}
+    AttackRange: 1.5
+    SightRange: 5
+    PatrolRadius: 10
+    MoveSpeed: 3.5
+    AttackSpeed: 1.2
+    MaxHealth: 600
+    Damage: 40
+    sprite: {fileID: -3840606169848088211, guid: fdf0078d67d1d4c48a677db35b3742bb,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 8e3b2f314b1b747d0bb5ee4f368a0856,
+      type: 2}
+    AttackRange: 8
+    SightRange: 10
+    PatrolRadius: 10
+    MoveSpeed: 2.5
+    AttackSpeed: 0.8
+    MaxHealth: 350
+    Damage: 90
+    sprite: {fileID: -1561206475218066730, guid: cd7084db881514a3e81f960068364723,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 04f6dd8e12333495fb4656c552c504f8,
+      type: 2}
+    AttackRange: 10
+    SightRange: 12
+    PatrolRadius: 10
+    MoveSpeed: 4
+    AttackSpeed: 1.5
+    MaxHealth: 400
+    Damage: 70
+    sprite: {fileID: -5187159938489860079, guid: f64bd9d2032404133af7e02d95d8a5dd,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 2fd2b96f6870145d5b8d8b10bba38470,
+      type: 2}
+    AttackRange: 1.5
+    SightRange: 5
+    PatrolRadius: 10
+    MoveSpeed: 3.5
+    AttackSpeed: 1.2
+    MaxHealth: 650
+    Damage: 35
+    sprite: {fileID: -9150247815751759573, guid: 2f562abe6c4f74cb39de8d4e0f52d99b,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 0e7b9c5a4bd8e4c20bd9800d39508d16,
+      type: 2}
+    AttackRange: 8
+    SightRange: 10
+    PatrolRadius: 10
+    MoveSpeed: 2.5
+    AttackSpeed: 0.8
+    MaxHealth: 380
+    Damage: 95
+    sprite: {fileID: 1264463222149776444, guid: 4ec9f4bed1b244abfbd21006be80b4e9,
+      type: 3}
+  - fighterDefinitions: {fileID: 11400000, guid: 82cba835588cf4de8bc63e3697b39f8c,
+      type: 2}
+    AttackRange: 10
+    SightRange: 12
+    PatrolRadius: 10
+    MoveSpeed: 4
+    AttackSpeed: 1.5
+    MaxHealth: 420
+    Damage: 75
+    sprite: {fileID: -2988141163458167296, guid: f3fd7a45225ee419eacf65a7fa8a8bdc,
+      type: 3}

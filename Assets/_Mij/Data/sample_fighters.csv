@@ -1,0 +1,13 @@
+FighterName,Class,Attribute,AttackRange,SightRange,PatrolRadius,MoveSpeed,AttackSpeed,MaxHealth,Damage
+VongWarrior,Warrior,Vong,1.5,5,10,3.5,1.2,500,50
+VongMage,Mage,Vong,8,10,10,2.5,0.8,300,80
+VongArcher,Archer,Vong,10,12,10,4,1.5,350,60
+LinhWarrior,Warrior,Linh,1.5,5,10,3.5,1.2,550,45
+LinhMage,Mage,Linh,8,10,10,2.5,0.8,320,85
+LinhArcher,Archer,Linh,10,12,10,4,1.5,370,65
+YeuWarrior,Warrior,Yeu,1.5,5,10,3.5,1.2,600,40
+YeuMage,Mage,Yeu,8,10,10,2.5,0.8,350,90
+YeuArcher,Archer,Yeu,10,12,10,4,1.5,400,70
+QuaiWarrior,Warrior,Quai,1.5,5,10,3.5,1.2,650,35
+QuaiMage,Mage,Quai,8,10,10,2.5,0.8,380,95
+QuaiArcher,Archer,Quai,10,12,10,4,1.5,420,75
