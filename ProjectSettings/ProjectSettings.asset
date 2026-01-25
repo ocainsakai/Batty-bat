@@ -1021,12 +1021,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 88ed69cb-9c86-47fd-bab3-51f40d81cf60
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Batty-Bat
   organizationId: tieudieu7319
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1

@@ -1,49 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1916772365185408897
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 640386314337156000}
-  - component: {fileID: 5910936076018676564}
-  m_Layer: 7
-  m_Name: Inventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &640386314337156000
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916772365185408897}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1193458577579347744}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5910936076018676564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916772365185408897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52834d83f1d34c998ffe559a8febe33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5355654682217190275
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,7 +31,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6374799152909181285}
-  - {fileID: 640386314337156000}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1738234003948322966
@@ -105,6 +60,7 @@ GameObject:
   - component: {fileID: 8770264003881213997}
   - component: {fileID: 7386544914438964931}
   - component: {fileID: 468682917851495700}
+  - component: {fileID: 8754347539235384421}
   m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
@@ -323,4 +279,15 @@ MonoBehaviour:
   collectionParticles: {fileID: 0}
   collectionSound: {fileID: 0}
   _growth: {fileID: 7386544914438964931}
-  _inventory: {fileID: 5910936076018676564}
+--- !u!114 &8754347539235384421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348441282825408633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52834d83f1d34c998ffe559a8febe33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
