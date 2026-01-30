@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f926cb2aff074ae8a0561de1f7c1c08, type: 3}
+  m_Name: WhimsicalWetlands
+  m_EditorClassIdentifier: 
+  biomeId: whimsicalwetlands
+  biomeName: "\u0110\u1EA7m L\u1EA7y M\xE0u Nhi\u1EC7m"
+  description: "Khu v\u1EF1c c\xF3 c\xE1c lo\xE0i \u0111\u1ED9ng v\u1EADt g\u1EAFn
+    li\u1EC1n v\u1EDBi m\xF4i tr\u01B0\u1EDDng n\u01B0\u1EDBc. C\xF3 c\xE1c h\u1ED3
+    n\u01B0\u1EDBc, hoa sen l\u1EDBn l\xE0m b\u1EE5c nh\u1EA3y."
+  biomeType: 3
+  difficulty: 3
+  backgroundSprite: {fileID: 0}
+  minimapIcon: {fileID: 0}
+  primaryColor: {r: 0.2, g: 0.7, b: 0.7, a: 1}
+  secondaryColor: {r: 0.7, g: 0.4, b: 0.8, a: 1}
+  accentColor: {r: 1, g: 1, b: 1, a: 1}
+  biomePrefab: {fileID: 0}
+  decorationPrefabs: []
+  obstaclePrefabs: []
+  ambientMusic: {fileID: 0}
+  ambientSounds: []
+  availableMasks:
+  - {fileID: 11400000, guid: 1a08e917d30c34b30a01821a0dd13212, type: 2}
+  - {fileID: 11400000, guid: 7004897e203da40a2b52bd41ec44cbb3, type: 2}
+  animalTypes:
+  - capybara
+  - axolotl
+  isUnlockedByDefault: 0
+  masksRequiredToUnlock: 8
+  prerequisiteBiome: {fileID: 0}

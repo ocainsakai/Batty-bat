@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c243ef88dbd4bcda73714d0e1aee8e, type: 3}
+  m_Name: fox_mask
+  m_EditorClassIdentifier: 
+  maskId: fox_mask
+  maskName: Fox Mask
+  description: A beautiful mask inspired by the fox.
+  maskSprite: {fileID: -2937633856602684032, guid: 691740490e723457bb412d1a818c7a63,
+    type: 3}
+  silhouetteSprite: {fileID: 0}
+  rarity: 2
+  associatedAnimal: fox
+  homeBiome: 1

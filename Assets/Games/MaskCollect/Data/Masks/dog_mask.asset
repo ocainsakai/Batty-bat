@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c243ef88dbd4bcda73714d0e1aee8e, type: 3}
+  m_Name: dog_mask
+  m_EditorClassIdentifier: 
+  maskId: dog_mask
+  maskName: Dog Mask
+  description: A beautiful mask inspired by the dog.
+  maskSprite: {fileID: -6990030575330055790, guid: a58b74c9446a741649f79c1126d273d2,
+    type: 3}
+  silhouetteSprite: {fileID: 0}
+  rarity: 0
+  associatedAnimal: dog
+  homeBiome: 0
