@@ -23,7 +23,8 @@ MonoBehaviour:
   primaryColor: {r: 0.2, g: 0.7, b: 0.7, a: 1}
   secondaryColor: {r: 0.7, g: 0.4, b: 0.8, a: 1}
   accentColor: {r: 1, g: 1, b: 1, a: 1}
-  biomePrefab: {fileID: 0}
+  biomePrefab: {fileID: 534111363862582336, guid: 0982ff127c4014408b7e0d608b441f48,
+    type: 3}
   decorationPrefabs: []
   obstaclePrefabs: []
   ambientMusic: {fileID: 0}

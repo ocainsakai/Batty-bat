@@ -13,6 +13,7 @@ namespace MaskCollect.Gameplay
         [SerializeField] private float moveSpeed = 5f;
         [SerializeField] private float acceleration = 10f;
         [SerializeField] private float deceleration = 15f;
+        [SerializeField] private bool canMove = true;
 
         [Header("Animation")]
         [SerializeField] private Animator animator;
@@ -41,6 +42,7 @@ namespace MaskCollect.Gameplay
         public Vector2 MoveInput => _moveInput;
         public bool IsMoving => _isMoving;
         public float MoveSpeed { get => moveSpeed; set => moveSpeed = value; }
+        public bool CanMove { get => canMove; set => canMove = value; }
 
         private void Awake()
         {
@@ -101,12 +103,20 @@ namespace MaskCollect.Gameplay
 
         private void Update()
         {
+            if (!canMove) return;
+            
             ReadInput();
             UpdateAnimation();
         }
 
         private void FixedUpdate()
         {
+            if (!canMove)
+            {
+                _rb.linearVelocity = Vector2.zero;
+                return;
+            }
+            
             Move();
             ClampPosition();
         }
