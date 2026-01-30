@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: capybara_mask
   maskName: Capybara Mask
   description: A beautiful mask inspired by the capybara.
-  maskSprite: {fileID: 1280353295435769752, guid: dd77198a7854849b99e751e7dda40512,
+  maskSprite: {fileID: -6429131401852239219, guid: 4722851161a3c40c59999b292cbb92b8,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 1

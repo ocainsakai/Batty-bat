@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: lion_mask
   maskName: Lion Mask
   description: A beautiful mask inspired by the lion.
-  maskSprite: {fileID: 8445137236685017916, guid: cf8c26d46604b4626bfcbf44af7117f5,
+  maskSprite: {fileID: -2660325406895668332, guid: ba668d84218594ac1b1369e2a812c603,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 3

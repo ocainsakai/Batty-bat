@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: redpanda_mask
   maskName: Red panda Mask
   description: A beautiful mask inspired by the redpanda.
-  maskSprite: {fileID: 6656946329602095117, guid: fdc13088d2dd44985974a9d99f779e1e,
+  maskSprite: {fileID: -2279243328365174819, guid: f75f0334a8bbc44bd8ef413ea498f81f,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 2

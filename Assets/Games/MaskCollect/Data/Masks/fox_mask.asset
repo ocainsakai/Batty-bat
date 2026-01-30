@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: fox_mask
   maskName: Fox Mask
   description: A beautiful mask inspired by the fox.
-  maskSprite: {fileID: -2937633856602684032, guid: 691740490e723457bb412d1a818c7a63,
+  maskSprite: {fileID: -2240130243788147622, guid: 4990419c4e10d488186d662c8c8439bf,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 2

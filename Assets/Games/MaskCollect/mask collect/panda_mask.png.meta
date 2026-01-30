@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bad5c804c192b4c34a4788fcbe153825
+guid: 7c7ccf2d2452746218b1d61d291c5974
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2525727001207658452
-    second: panda_mask_0
+      213: 3464904790749719935
+    second: panda_mask Background Removed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: panda_mask_0
+      name: panda_mask Background Removed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 48
+        y: 74
+        width: 930
+        height: 874
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d75892635f2d0320800000000000000
-      internalID: 2525727001207658452
+      spriteID: f7daf21ac80d51030800000000000000
+      internalID: 3464904790749719935
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      panda_mask_0: 2525727001207658452
+      panda_mask Background Removed_0: 3464904790749719935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: cat_mask
   maskName: Cat Mask
   description: A beautiful mask inspired by the cat.
-  maskSprite: {fileID: 6009472516440323491, guid: 731b3faa18d4c4365bfab68b339c598c,
+  maskSprite: {fileID: 7973552043495937789, guid: 8c2a0118b2dfd46db9fe38fd8daf0d4c,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 0

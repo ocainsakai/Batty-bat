@@ -439,7 +439,7 @@ namespace MaskCollect.Editor
                 }
             }
 
-            text += "\n\n=== TỔNG CỘNG: " + missingSprites.Count + " sprites ===";
+            text += "\n\n=== TOTAL: " + missingSprites.Count + " sprites ===";
 
             GUIUtility.systemCopyBuffer = text;
             Debug.Log(text);

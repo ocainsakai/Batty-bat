@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: ZenValley
   m_EditorClassIdentifier: 
   biomeId: zenvalley
-  biomeName: "Thung L\u0169ng Ph\u01B0\u01A1ng \u0110\xF4ng"
-  description: "Khu v\u1EF1c \u0111\u1EB7c bi\u1EC7t d\xE0nh cho c\xE1c lo\xE0i mang
-    t\xEDnh bi\u1EC3u t\u01B0\u1EE3ng \xC1 \u0110\xF4ng. C\xF3 r\u1EEBng tre, c\u1ED5ng
-    \u0111\xE1, h\u1ED3 n\u01B0\u1EDBc t\u0129nh l\u1EB7ng."
+  biomeName: Zen Valley
+  description: A special area for iconic Eastern animals. Features bamboo forests,
+    stone gates, and tranquil ponds.
   biomeType: 2
   difficulty: 2
   backgroundSprite: {fileID: 0}
@@ -30,9 +29,9 @@ MonoBehaviour:
   ambientMusic: {fileID: 0}
   ambientSounds: []
   availableMasks:
-  - {fileID: 11400000, guid: fe6b3c126dec54a89a07ea377a8efab8, type: 2}
-  - {fileID: 11400000, guid: 2b885305cbe04463cbc476dce25a3e9c, type: 2}
-  - {fileID: 11400000, guid: 6197783c228cb4c72be7b3a753c49c2b, type: 2}
+  - {fileID: 11400000, guid: b082ccbbe02864cf5ba38d5c5f8c12cf, type: 2}
+  - {fileID: 11400000, guid: de4e301311d61499e8f862ca95badf1b, type: 2}
+  - {fileID: 11400000, guid: d7c5f80577ae34bf38b85adbac10a5a1, type: 2}
   animalTypes:
   - panda
   - lion

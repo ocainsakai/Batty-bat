@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: owl_mask
   maskName: Owl Mask
   description: A beautiful mask inspired by the owl.
-  maskSprite: {fileID: 2041132672925579646, guid: 04975c14e504b4d03a9b9cc85b4486e9,
+  maskSprite: {fileID: -1645360907540995206, guid: 6dd0140e7f4354490b56cbb6ffa0ac18,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 2

@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: MysticForest
   m_EditorClassIdentifier: 
   biomeId: mysticforest
-  biomeName: "R\u1EEBng R\u1EADm B\xED \u1EA8n"
-  description: "Khu v\u1EF1c y\xEAu c\u1EA7u ng\u01B0\u1EDDi ch\u01A1i ph\u1EA3i
-    kh\xE1m ph\xE1 s\xE2u h\u01A1n \u0111\u1EC3 t\xECm th\u1EA5y c\xE1c lo\xE0i nh\xFAt
-    nh\xE1t."
+  biomeName: Mystic Forest
+  description: An area that requires deeper exploration to find shy creatures.
   biomeType: 1
   difficulty: 1
   backgroundSprite: {fileID: 0}
@@ -30,9 +28,9 @@ MonoBehaviour:
   ambientMusic: {fileID: 0}
   ambientSounds: []
   availableMasks:
-  - {fileID: 11400000, guid: 9b63c6caf6a5c416c9beb7ffbfca39c2, type: 2}
-  - {fileID: 11400000, guid: 3e48932baeeb74174a8fd96048aa368c, type: 2}
-  - {fileID: 11400000, guid: 6197783c228cb4c72be7b3a753c49c2b, type: 2}
+  - {fileID: 11400000, guid: d897d5c5844bd4a5d857c4a1c2bb03c2, type: 2}
+  - {fileID: 11400000, guid: 795696251e6a6450ca23dfb5a38d43e5, type: 2}
+  - {fileID: 11400000, guid: d7c5f80577ae34bf38b85adbac10a5a1, type: 2}
   animalTypes:
   - fox
   - owl

@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: WhimsicalWetlands
   m_EditorClassIdentifier: 
   biomeId: whimsicalwetlands
-  biomeName: "\u0110\u1EA7m L\u1EA7y M\xE0u Nhi\u1EC7m"
-  description: "Khu v\u1EF1c c\xF3 c\xE1c lo\xE0i \u0111\u1ED9ng v\u1EADt g\u1EAFn
-    li\u1EC1n v\u1EDBi m\xF4i tr\u01B0\u1EDDng n\u01B0\u1EDBc. C\xF3 c\xE1c h\u1ED3
-    n\u01B0\u1EDBc, hoa sen l\u1EDBn l\xE0m b\u1EE5c nh\u1EA3y."
+  biomeName: Whimsical Wetlands
+  description: An area with aquatic animals. Features ponds and giant lotus leaves
+    as platforms.
   biomeType: 3
   difficulty: 3
   backgroundSprite: {fileID: 0}
@@ -30,8 +29,8 @@ MonoBehaviour:
   ambientMusic: {fileID: 0}
   ambientSounds: []
   availableMasks:
-  - {fileID: 11400000, guid: 1a08e917d30c34b30a01821a0dd13212, type: 2}
-  - {fileID: 11400000, guid: 7004897e203da40a2b52bd41ec44cbb3, type: 2}
+  - {fileID: 11400000, guid: 7ca5bc43c3a1545d392c542a2aa911fe, type: 2}
+  - {fileID: 11400000, guid: 659b4402be294456d9e84f7b202b6b75, type: 2}
   animalTypes:
   - capybara
   - axolotl

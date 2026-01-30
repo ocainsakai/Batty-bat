@@ -4,10 +4,10 @@ namespace MaskCollect.Data
 {
     public enum BiomeType
     {
-        PeacefulMeadow,    // Đồng Cỏ Thân Thiện
-        MysticForest,      // Rừng Rậm Bí Ẩn
-        ZenValley,         // Thung Lũng Phương Đông
-        WhimsicalWetlands  // Đầm Lầy Màu Nhiệm
+        PeacefulMeadow,    // Peaceful Meadow
+        MysticForest,      // Mystic Forest
+        ZenValley,         // Zen Valley
+        WhimsicalWetlands  // Whimsical Wetlands
     }
 
     public enum BiomeDifficulty
@@ -127,10 +127,10 @@ namespace MaskCollect.Data
             {
                 biomeName = biomeType switch
                 {
-                    BiomeType.PeacefulMeadow => "Đồng Cỏ Thân Thiện",
-                    BiomeType.MysticForest => "Rừng Rậm Bí Ẩn",
-                    BiomeType.ZenValley => "Thung Lũng Phương Đông",
-                    BiomeType.WhimsicalWetlands => "Đầm Lầy Màu Nhiệm",
+                    BiomeType.PeacefulMeadow => "Peaceful Meadow",
+                    BiomeType.MysticForest => "Mystic Forest",
+                    BiomeType.ZenValley => "Zen Valley",
+                    BiomeType.WhimsicalWetlands => "Whimsical Wetlands",
                     _ => name
                 };
             }

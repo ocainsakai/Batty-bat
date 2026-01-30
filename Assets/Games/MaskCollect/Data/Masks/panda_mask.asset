@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: panda_mask
   maskName: Panda Mask
   description: A beautiful mask inspired by the panda.
-  maskSprite: {fileID: 2525727001207658452, guid: bad5c804c192b4c34a4788fcbe153825,
+  maskSprite: {fileID: 3464904790749719935, guid: 7c7ccf2d2452746218b1d61d291c5974,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 1

@@ -119,7 +119,7 @@ namespace MaskCollect.UI
             int unlocked = biomeManager.UnlockedBiomes.Count;
             int total = biomeDatabase != null ? biomeDatabase.TotalBiomeCount : 0;
 
-            progressText.text = $"Khu vực đã mở: {unlocked}/{total}";
+            progressText.text = $"Areas Unlocked: {unlocked}/{total}";
         }
 
         private void PlayEnterAnimation()
@@ -180,7 +180,7 @@ namespace MaskCollect.UI
 
             if (biomeAnimalsText != null && biome.AnimalTypes != null)
             {
-                biomeAnimalsText.text = "Động vật: " + string.Join(", ", biome.AnimalTypes);
+                biomeAnimalsText.text = "Animals: " + string.Join(", ", biome.AnimalTypes);
             }
 
             if (biomeImage != null && biome.BackgroundSprite != null)
@@ -197,7 +197,7 @@ namespace MaskCollect.UI
                 var buttonText = enterBiomeButton.GetComponentInChildren<TextMeshProUGUI>();
                 if (buttonText != null)
                 {
-                    buttonText.text = isUnlocked ? "Khám Phá" : "Đã Khóa";
+                    buttonText.text = isUnlocked ? "Explore" : "Locked";
                 }
             }
 
@@ -216,7 +216,7 @@ namespace MaskCollect.UI
                 unlockRequirementText.gameObject.SetActive(!isUnlocked);
                 if (!isUnlocked)
                 {
-                    unlockRequirementText.text = $"Thu thập {biome.MasksRequiredToUnlock} mặt nạ để mở khóa";
+                    unlockRequirementText.text = $"Collect {biome.MasksRequiredToUnlock} masks to unlock";
                 }
             }
         }

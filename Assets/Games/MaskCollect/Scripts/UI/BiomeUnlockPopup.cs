@@ -84,7 +84,7 @@ namespace MaskCollect.UI
 
             if (titleText != null)
             {
-                titleText.text = "Vùng Đất Mới Mở Khóa!";
+                titleText.text = "New Biome Unlocked!";
             }
 
             PlayShowAnimation();

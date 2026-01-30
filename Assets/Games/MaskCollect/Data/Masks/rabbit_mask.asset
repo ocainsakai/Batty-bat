@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: rabbit_mask
   maskName: Rabbit Mask
   description: A beautiful mask inspired by the rabbit.
-  maskSprite: {fileID: 8426567328539887009, guid: 927c5d638415b4c93b6d744ffafe56e0,
+  maskSprite: {fileID: -4994637418392606716, guid: bae18ac89c3024f7eb5e56481ba0f647,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 0

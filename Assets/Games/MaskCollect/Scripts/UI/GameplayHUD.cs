@@ -157,13 +157,13 @@ namespace MaskCollect.UI
             }
 
             // Show notification
-            ShowNotification($"Đã nhận: {mask.MaskName}!");
+            ShowNotification($"Received: {mask.MaskName}!");
         }
 
         private void HandleBiomeEntered(BiomeData biome)
         {
             UpdateBiomeInfo();
-            ShowNotification($"Chào mừng đến {biome.BiomeName}!");
+            ShowNotification($"Welcome to {biome.BiomeName}!");
         }
 
         /// <summary>

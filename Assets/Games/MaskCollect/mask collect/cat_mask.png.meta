@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 731b3faa18d4c4365bfab68b339c598c
+guid: 8c2a0118b2dfd46db9fe38fd8daf0d4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6009472516440323491
-    second: cat_mask_0
+      213: 7973552043495937789
+    second: cat_mask Background Removed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cat_mask_0
+      name: cat_mask Background Removed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 100
+        y: 134
+        width: 824
+        height: 754
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a5f5e50a6fe56350800000000000000
-      internalID: 6009472516440323491
+      spriteID: df65aae765fb7ae60800000000000000
+      internalID: 7973552043495937789
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cat_mask_0: 6009472516440323491
+      cat_mask Background Removed_0: 7973552043495937789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

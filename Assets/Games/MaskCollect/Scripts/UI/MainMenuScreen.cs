@@ -96,7 +96,7 @@ namespace MaskCollect.UI
                 var playText = playButton.GetComponentInChildren<TextMeshProUGUI>();
                 if (playText != null)
                 {
-                    playText.text = hasSave ? "Chơi Mới" : "Bắt Đầu";
+                    playText.text = hasSave ? "New Game" : "Play";
                 }
             }
 

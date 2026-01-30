@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: bird_mask
   maskName: Bird Mask
   description: A beautiful mask inspired by the bird.
-  maskSprite: {fileID: 3017411765690238794, guid: bb81466129ed3424ab5bb28e28429113,
+  maskSprite: {fileID: 1931621681936875155, guid: c49752e2e804342f081afa19a3d98afb,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 0

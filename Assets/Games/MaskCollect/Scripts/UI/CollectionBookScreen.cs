@@ -174,7 +174,7 @@ namespace MaskCollect.UI
 
             if (progressText != null)
             {
-                progressText.text = $"{collected}/{total} Mặt nạ";
+                progressText.text = $"{collected}/{total} Masks";
             }
 
             if (progressSlider != null)
@@ -274,7 +274,7 @@ namespace MaskCollect.UI
 
             if (detailDescText != null)
             {
-                detailDescText.text = isOwned ? mask.Description : "Hãy tìm kiếm mặt nạ này!";
+                detailDescText.text = isOwned ? mask.Description : "Find this mask!";
             }
 
             if (detailRarityText != null)
@@ -286,15 +286,15 @@ namespace MaskCollect.UI
             if (detailAnimalText != null)
             {
                 detailAnimalText.text = isOwned 
-                    ? $"Từ: {FormatAnimalName(mask.AssociatedAnimal)}"
-                    : "Từ: ???";
+                    ? $"From: {FormatAnimalName(mask.AssociatedAnimal)}"
+                    : "From: ???";
             }
 
             if (detailBiomeText != null)
             {
                 detailBiomeText.text = isOwned
-                    ? $"Vùng: {GetBiomeName(mask.HomeBiome)}"
-                    : "Vùng: ???";
+                    ? $"Biome: {GetBiomeName(mask.HomeBiome)}"
+                    : "Biome: ???";
             }
 
             if (detailRarityIcon != null)
@@ -330,11 +330,11 @@ namespace MaskCollect.UI
         {
             return rarity switch
             {
-                MaskRarity.Common => "Thường",
-                MaskRarity.Uncommon => "Không phổ biến",
-                MaskRarity.Rare => "Hiếm",
-                MaskRarity.Legendary => "Huyền thoại",
-                _ => "Thường"
+                MaskRarity.Common => "Common",
+                MaskRarity.Uncommon => "Uncommon",
+                MaskRarity.Rare => "Rare",
+                MaskRarity.Legendary => "Legendary",
+                _ => "Common"
             };
         }
 
@@ -342,15 +342,15 @@ namespace MaskCollect.UI
         {
             return animalType switch
             {
-                "dog" => "Chó Shiba",
-                "cat" => "Mèo Calico",
-                "rabbit" => "Thỏ",
-                "bird" => "Chim",
-                "fox" => "Cáo",
-                "owl" => "Cú Mèo",
+                "dog" => "Shiba Dog",
+                "cat" => "Calico Cat",
+                "rabbit" => "Rabbit",
+                "bird" => "Bird",
+                "fox" => "Fox",
+                "owl" => "Owl",
                 "redpanda" => "Red Panda",
-                "panda" => "Gấu Trúc",
-                "lion" => "Sư Tử",
+                "panda" => "Panda",
+                "lion" => "Lion",
                 "capybara" => "Capybara",
                 "axolotl" => "Axolotl",
                 _ => animalType
@@ -361,10 +361,10 @@ namespace MaskCollect.UI
         {
             return biomeType switch
             {
-                BiomeType.PeacefulMeadow => "Thảo Nguyên Bình Yên",
-                BiomeType.MysticForest => "Rừng Bí Ẩn",
-                BiomeType.ZenValley => "Thung Lũng Thiền",
-                BiomeType.WhimsicalWetlands => "Đầm Lầy Diệu Kỳ",
+                BiomeType.PeacefulMeadow => "Peaceful Meadow",
+                BiomeType.MysticForest => "Mystic Forest",
+                BiomeType.ZenValley => "Zen Valley",
+                BiomeType.WhimsicalWetlands => "Whimsical Wetlands",
                 _ => biomeType.ToString()
             };
         }

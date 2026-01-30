@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 927c5d638415b4c93b6d744ffafe56e0
+guid: bae18ac89c3024f7eb5e56481ba0f647
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8426567328539887009
-    second: rabbit_mask_0
+      213: -4994637418392606716
+    second: rabbit_mask Background Removed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rabbit_mask_0
+      name: rabbit_mask Background Removed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 110
+        y: 79
+        width: 804
+        height: 865
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a54885e65e21f470800000000000000
-      internalID: 8426567328539887009
+      spriteID: 408a5de0bbb7faab0800000000000000
+      internalID: -4994637418392606716
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rabbit_mask_0: 8426567328539887009
+      rabbit_mask Background Removed_0: -4994637418392606716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -58,11 +58,11 @@ namespace MaskCollect.Editor
                 new BiomeEntry
                 {
                     Type = BiomeType.PeacefulMeadow,
-                    Name = "Đồng Cỏ Thân Thiện",
-                    Description = "Khu vực mở đầu game, nơi hội tụ các loài gần gũi nhất. Không gian mở, dễ di chuyển.",
+                    Name = "Peaceful Meadow",
+                    Description = "Starting area where the friendliest animals gather. Open space, easy to navigate.",
                     Difficulty = BiomeDifficulty.Easy,
-                    PrimaryColor = new Color(0.6f, 0.9f, 0.4f), // Xanh lá non
-                    SecondaryColor = new Color(1f, 0.9f, 0.4f), // Vàng nắng
+                    PrimaryColor = new Color(0.6f, 0.9f, 0.4f), // Light green
+                    SecondaryColor = new Color(1f, 0.9f, 0.4f), // Sunny yellow
                     AnimalTypes = new[] { "dog", "cat", "rabbit", "bird" },
                     IsUnlockedByDefault = true,
                     MasksRequiredToUnlock = 0,
@@ -71,11 +71,11 @@ namespace MaskCollect.Editor
                 new BiomeEntry
                 {
                     Type = BiomeType.MysticForest,
-                    Name = "Rừng Rậm Bí Ẩn",
-                    Description = "Khu vực yêu cầu người chơi phải khám phá sâu hơn để tìm thấy các loài nhút nhát.",
+                    Name = "Mystic Forest",
+                    Description = "An area that requires deeper exploration to find shy creatures.",
                     Difficulty = BiomeDifficulty.Medium,
-                    PrimaryColor = new Color(0.2f, 0.5f, 0.2f), // Xanh lục đậm
-                    SecondaryColor = new Color(0.5f, 0.35f, 0.2f), // Nâu gỗ
+                    PrimaryColor = new Color(0.2f, 0.5f, 0.2f), // Dark green
+                    SecondaryColor = new Color(0.5f, 0.35f, 0.2f), // Wood brown
                     AnimalTypes = new[] { "fox", "owl", "redpanda" },
                     IsUnlockedByDefault = false,
                     MasksRequiredToUnlock = 2,
@@ -84,11 +84,11 @@ namespace MaskCollect.Editor
                 new BiomeEntry
                 {
                     Type = BiomeType.ZenValley,
-                    Name = "Thung Lũng Phương Đông",
-                    Description = "Khu vực đặc biệt dành cho các loài mang tính biểu tượng Á Đông. Có rừng tre, cổng đá, hồ nước tĩnh lặng.",
+                    Name = "Zen Valley",
+                    Description = "A special area for iconic Eastern animals. Features bamboo forests, stone gates, and tranquil ponds.",
                     Difficulty = BiomeDifficulty.Hard,
-                    PrimaryColor = new Color(0.4f, 0.7f, 0.4f), // Xanh tre trúc
-                    SecondaryColor = new Color(0.8f, 0.2f, 0.2f), // Đỏ trang trí
+                    PrimaryColor = new Color(0.4f, 0.7f, 0.4f), // Bamboo green
+                    SecondaryColor = new Color(0.8f, 0.2f, 0.2f), // Decorative red
                     AnimalTypes = new[] { "panda", "lion" },
                     IsUnlockedByDefault = false,
                     MasksRequiredToUnlock = 5,
@@ -97,11 +97,11 @@ namespace MaskCollect.Editor
                 new BiomeEntry
                 {
                     Type = BiomeType.WhimsicalWetlands,
-                    Name = "Đầm Lầy Màu Nhiệm",
-                    Description = "Khu vực có các loài động vật gắn liền với môi trường nước. Có các hồ nước, hoa sen lớn làm bục nhảy.",
+                    Name = "Whimsical Wetlands",
+                    Description = "An area with aquatic animals. Features ponds and giant lotus leaves as platforms.",
                     Difficulty = BiomeDifficulty.Secret,
-                    PrimaryColor = new Color(0.2f, 0.7f, 0.7f), // Xanh ngọc bích
-                    SecondaryColor = new Color(0.7f, 0.4f, 0.8f), // Tím sen
+                    PrimaryColor = new Color(0.2f, 0.7f, 0.7f), // Teal
+                    SecondaryColor = new Color(0.7f, 0.4f, 0.8f), // Lotus purple
                     AnimalTypes = new[] { "capybara", "axolotl" },
                     IsUnlockedByDefault = false,
                     MasksRequiredToUnlock = 8,
@@ -115,7 +115,7 @@ namespace MaskCollect.Editor
             EditorGUILayout.Space(10);
             EditorGUILayout.LabelField("Biome Creator Tool", EditorStyles.boldLabel);
             EditorGUILayout.HelpBox(
-                "Tạo nhanh 4 Biomes cho Mask Collect:\n" +
+                "Quickly create 4 Biomes for Mask Collect:\n" +
                 "• Peaceful Meadow (Easy) - Dog, Cat, Rabbit, Bird\n" +
                 "• Mystic Forest (Medium) - Fox, Owl, Red Panda\n" +
                 "• Zen Valley (Hard) - Panda, Lion\n" +

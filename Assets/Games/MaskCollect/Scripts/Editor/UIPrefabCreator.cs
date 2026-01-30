@@ -135,10 +135,10 @@ namespace MaskCollect.Editor
             layout.childAlignment = TextAnchor.MiddleCenter;
 
             // Play Button
-            CreateButton(buttonsContainer.transform, "PlayButton", "Bắt Đầu");
-            CreateButton(buttonsContainer.transform, "ContinueButton", "Tiếp Tục");
-            CreateButton(buttonsContainer.transform, "CollectionButton", "Bộ Sưu Tập");
-            CreateButton(buttonsContainer.transform, "SettingsButton", "Cài Đặt");
+            CreateButton(buttonsContainer.transform, "PlayButton", "Play");
+            CreateButton(buttonsContainer.transform, "ContinueButton", "Continue");
+            CreateButton(buttonsContainer.transform, "CollectionButton", "Collection");
+            CreateButton(buttonsContainer.transform, "SettingsButton", "Settings");
 
             SavePrefab(root, "MainMenuScreen");
         }
@@ -156,7 +156,7 @@ namespace MaskCollect.Editor
             StretchToFill(bg.GetComponent<RectTransform>());
 
             // Title
-            var title = CreateText(root.transform, "Title", "Bản Đồ Thế Giới");
+            var title = CreateText(root.transform, "Title", "World Map");
             var titleRect = title.GetComponent<RectTransform>();
             titleRect.anchorMin = new Vector2(0.5f, 1);
             titleRect.anchorMax = new Vector2(0.5f, 1);
@@ -175,7 +175,7 @@ namespace MaskCollect.Editor
             grid.childAlignment = TextAnchor.MiddleCenter;
 
             // Back Button
-            var backBtn = CreateButton(root.transform, "BackButton", "← Quay Lại");
+            var backBtn = CreateButton(root.transform, "BackButton", "← Back");
             var backRect = backBtn.GetComponent<RectTransform>();
             backRect.anchorMin = new Vector2(0, 1);
             backRect.anchorMax = new Vector2(0, 1);
@@ -256,7 +256,7 @@ namespace MaskCollect.Editor
             panelRect.sizeDelta = new Vector2(400, 500);
 
             // Title
-            var title = CreateText(panel.transform, "Title", "TẠM DỪNG");
+            var title = CreateText(panel.transform, "Title", "PAUSED");
             var titleRect = title.GetComponent<RectTransform>();
             titleRect.anchoredPosition = new Vector2(0, 180);
 
@@ -269,10 +269,10 @@ namespace MaskCollect.Editor
             layout.spacing = 15;
             layout.childAlignment = TextAnchor.MiddleCenter;
 
-            CreateButton(buttonsContainer.transform, "ResumeButton", "Tiếp Tục");
-            CreateButton(buttonsContainer.transform, "SettingsButton", "Cài Đặt");
-            CreateButton(buttonsContainer.transform, "HomeButton", "Về Menu");
-            CreateButton(buttonsContainer.transform, "QuitButton", "Thoát Game");
+            CreateButton(buttonsContainer.transform, "ResumeButton", "Resume");
+            CreateButton(buttonsContainer.transform, "SettingsButton", "Settings");
+            CreateButton(buttonsContainer.transform, "HomeButton", "Main Menu");
+            CreateButton(buttonsContainer.transform, "QuitButton", "Quit");
 
             SavePrefab(root, "PauseScreen");
         }
@@ -290,14 +290,14 @@ namespace MaskCollect.Editor
             StretchToFill(bg.GetComponent<RectTransform>());
 
             // Title
-            var title = CreateText(root.transform, "Title", "BỘ SƯU TẬP");
+            var title = CreateText(root.transform, "Title", "COLLECTION");
             var titleRect = title.GetComponent<RectTransform>();
             titleRect.anchorMin = new Vector2(0.5f, 1);
             titleRect.anchorMax = new Vector2(0.5f, 1);
             titleRect.anchoredPosition = new Vector2(0, -60);
 
             // Progress
-            var progress = CreateText(root.transform, "ProgressText", "0/11 Mặt nạ");
+            var progress = CreateText(root.transform, "ProgressText", "0/11 Masks");
             var progressRect = progress.GetComponent<RectTransform>();
             progressRect.anchorMin = new Vector2(0.5f, 1);
             progressRect.anchorMax = new Vector2(0.5f, 1);
@@ -334,7 +334,7 @@ namespace MaskCollect.Editor
             scrollRect.viewport = viewport.GetComponent<RectTransform>();
 
             // Back Button
-            var backBtn = CreateButton(root.transform, "BackButton", "← Quay Lại");
+            var backBtn = CreateButton(root.transform, "BackButton", "← Back");
             var backRect = backBtn.GetComponent<RectTransform>();
             backRect.anchorMin = new Vector2(0, 1);
             backRect.anchorMax = new Vector2(0, 1);
@@ -471,7 +471,7 @@ namespace MaskCollect.Editor
             panelRect.sizeDelta = new Vector2(400, 500);
 
             // Title
-            var title = CreateText(panel.transform, "Title", "MẶT NẠ MỚI!");
+            var title = CreateText(panel.transform, "Title", "NEW MASK!");
             var titleRect = title.GetComponent<RectTransform>();
             titleRect.anchoredPosition = new Vector2(0, 180);
             title.GetComponent<TextMeshProUGUI>().color = Color.black;
@@ -488,7 +488,7 @@ namespace MaskCollect.Editor
             maskName.GetComponent<TextMeshProUGUI>().color = Color.black;
 
             // Continue Button
-            var continueBtn = CreateButton(panel.transform, "ContinueButton", "Tuyệt vời!");
+            var continueBtn = CreateButton(panel.transform, "ContinueButton", "Awesome!");
             var btnRect = continueBtn.GetComponent<RectTransform>();
             btnRect.anchoredPosition = new Vector2(0, -200);
 
@@ -513,7 +513,7 @@ namespace MaskCollect.Editor
             panelRect.sizeDelta = new Vector2(450, 550);
 
             // Title
-            var title = CreateText(panel.transform, "Title", "VÙNG ĐẤT MỚI!");
+            var title = CreateText(panel.transform, "Title", "NEW BIOME!");
             var titleRect = title.GetComponent<RectTransform>();
             titleRect.anchoredPosition = new Vector2(0, 220);
 
@@ -529,17 +529,17 @@ namespace MaskCollect.Editor
             nameRect.anchoredPosition = new Vector2(0, -60);
 
             // Description
-            var desc = CreateText(panel.transform, "Description", "Một vùng đất mới chờ bạn khám phá!");
+            var desc = CreateText(panel.transform, "Description", "A new land awaits your exploration!");
             var descRect = desc.GetComponent<RectTransform>();
             descRect.anchoredPosition = new Vector2(0, -110);
             descRect.sizeDelta = new Vector2(380, 60);
 
             // Buttons
-            var goBtn = CreateButton(panel.transform, "GoButton", "Khám Phá Ngay!");
+            var goBtn = CreateButton(panel.transform, "GoButton", "Explore Now!");
             var goRect = goBtn.GetComponent<RectTransform>();
             goRect.anchoredPosition = new Vector2(0, -180);
 
-            var laterBtn = CreateButton(panel.transform, "LaterButton", "Để Sau");
+            var laterBtn = CreateButton(panel.transform, "LaterButton", "Later");
             var laterRect = laterBtn.GetComponent<RectTransform>();
             laterRect.anchoredPosition = new Vector2(0, -240);
 
@@ -646,7 +646,7 @@ namespace MaskCollect.Editor
             CreateBiomeUnlockPopup();
 
             AssetDatabase.Refresh();
-            EditorUtility.DisplayDialog("Hoàn tất!", "Đã tạo tất cả UI Prefabs!", "OK");
+            EditorUtility.DisplayDialog("Complete!", "All UI Prefabs created!", "OK");
         }
 
         #endregion

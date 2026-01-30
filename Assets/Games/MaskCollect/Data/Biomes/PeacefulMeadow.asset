@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: PeacefulMeadow
   m_EditorClassIdentifier: 
   biomeId: peacefulmeadow
-  biomeName: "\u0110\u1ED3ng C\u1ECF Th\xE2n Thi\u1EC7n"
-  description: "Khu v\u1EF1c m\u1EDF \u0111\u1EA7u game, n\u01A1i h\u1ED9i t\u1EE5
-    c\xE1c lo\xE0i g\u1EA7n g\u0169i nh\u1EA5t. Kh\xF4ng gian m\u1EDF, d\u1EC5 di
-    chuy\u1EC3n."
+  biomeName: Peaceful Meadow
+  description: Starting area where the friendliest animals gather. Open space, easy
+    to navigate.
   biomeType: 0
   difficulty: 0
   backgroundSprite: {fileID: 0}
@@ -30,10 +29,10 @@ MonoBehaviour:
   ambientMusic: {fileID: 0}
   ambientSounds: []
   availableMasks:
-  - {fileID: 11400000, guid: c870e0f73ca334a1083b4b9282b3bf80, type: 2}
-  - {fileID: 11400000, guid: 77c0d3e6d9be345678d5d6fcffa881d9, type: 2}
-  - {fileID: 11400000, guid: 4592d497761d847ca9cd8443a269e6d4, type: 2}
-  - {fileID: 11400000, guid: 62e450c5475714931a479c3b486b1ff1, type: 2}
+  - {fileID: 11400000, guid: 97968413be8154201a0461c7e8bc4243, type: 2}
+  - {fileID: 11400000, guid: b1c84344cc32f45b59090da624de677d, type: 2}
+  - {fileID: 11400000, guid: d036c1bbb1a2149b2ac00025674d88dd, type: 2}
+  - {fileID: 11400000, guid: 227700ef7f6304196adafaab0d717688, type: 2}
   animalTypes:
   - dog
   - cat

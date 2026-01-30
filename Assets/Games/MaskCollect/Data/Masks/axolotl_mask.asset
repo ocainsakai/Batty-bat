@@ -15,7 +15,7 @@ MonoBehaviour:
   maskId: axolotl_mask
   maskName: Axolotl Mask
   description: A beautiful mask inspired by the axolotl.
-  maskSprite: {fileID: -7682040736021864289, guid: 363f2d42dc07d40fc87ae6d2c99570a8,
+  maskSprite: {fileID: 7618503630775384532, guid: 697185cd2400f484db679eb16b5ed82d,
     type: 3}
   silhouetteSprite: {fileID: 0}
   rarity: 1

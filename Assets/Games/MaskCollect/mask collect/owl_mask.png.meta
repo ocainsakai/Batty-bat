@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 04975c14e504b4d03a9b9cc85b4486e9
+guid: 6dd0140e7f4354490b56cbb6ffa0ac18
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2041132672925579646
-    second: owl_mask_0
+      213: -1645360907540995206
+    second: owl_mask Background Removed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: owl_mask_0
+      name: owl_mask Background Removed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 102
+        y: 126
+        width: 822
+        height: 794
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e793c250a5f835c10800000000000000
-      internalID: 2041132672925579646
+      spriteID: a7364bad8f08a29e0800000000000000
+      internalID: -1645360907540995206
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      owl_mask_0: 2041132672925579646
+      owl_mask Background Removed_0: -1645360907540995206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

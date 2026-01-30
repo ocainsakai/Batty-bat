@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a88c5cb9ddb84124af8bad778797bb4, type: 3}
   m_Name: MaskDatabase
   m_EditorClassIdentifier: 
-  allMasks:
-  - {fileID: 11400000, guid: 1a08e917d30c34b30a01821a0dd13212, type: 2}
-  - {fileID: 11400000, guid: c870e0f73ca334a1083b4b9282b3bf80, type: 2}
-  - {fileID: 11400000, guid: 7004897e203da40a2b52bd41ec44cbb3, type: 2}
-  - {fileID: 11400000, guid: 77c0d3e6d9be345678d5d6fcffa881d9, type: 2}
-  - {fileID: 11400000, guid: 4592d497761d847ca9cd8443a269e6d4, type: 2}
-  - {fileID: 11400000, guid: 9b63c6caf6a5c416c9beb7ffbfca39c2, type: 2}
-  - {fileID: 11400000, guid: fe6b3c126dec54a89a07ea377a8efab8, type: 2}
-  - {fileID: 11400000, guid: 3e48932baeeb74174a8fd96048aa368c, type: 2}
-  - {fileID: 11400000, guid: 2b885305cbe04463cbc476dce25a3e9c, type: 2}
-  - {fileID: 11400000, guid: 62e450c5475714931a479c3b486b1ff1, type: 2}
-  - {fileID: 11400000, guid: 6197783c228cb4c72be7b3a753c49c2b, type: 2}
+  _allMasks:
+  - {fileID: 11400000, guid: 7ca5bc43c3a1545d392c542a2aa911fe, type: 2}
+  - {fileID: 11400000, guid: 97968413be8154201a0461c7e8bc4243, type: 2}
+  - {fileID: 11400000, guid: 659b4402be294456d9e84f7b202b6b75, type: 2}
+  - {fileID: 11400000, guid: b1c84344cc32f45b59090da624de677d, type: 2}
+  - {fileID: 11400000, guid: d036c1bbb1a2149b2ac00025674d88dd, type: 2}
+  - {fileID: 11400000, guid: d897d5c5844bd4a5d857c4a1c2bb03c2, type: 2}
+  - {fileID: 11400000, guid: b082ccbbe02864cf5ba38d5c5f8c12cf, type: 2}
+  - {fileID: 11400000, guid: 795696251e6a6450ca23dfb5a38d43e5, type: 2}
+  - {fileID: 11400000, guid: de4e301311d61499e8f862ca95badf1b, type: 2}
+  - {fileID: 11400000, guid: 227700ef7f6304196adafaab0d717688, type: 2}
+  - {fileID: 11400000, guid: d7c5f80577ae34bf38b85adbac10a5a1, type: 2}

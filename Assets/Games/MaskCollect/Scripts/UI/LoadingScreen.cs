@@ -28,16 +28,54 @@ namespace MaskCollect.UI
         [Header("Quotes")]
         [SerializeField] private string[] animalQuotes = new[]
         {
-            "\"Mỗi người bạn nhỏ đều có một câu chuyện...\" - Chú Thỏ",
-            "\"Hãy kiên nhẫn, phép màu sẽ đến!\" - Cáo con",
-            "\"Giúp đỡ ai đó khiến ta thấy hạnh phúc.\" - Capybara",
-            "\"Bạn bè là kho báu quý giá nhất.\" - Chó Shiba",
-            "\"Mặt nạ không chỉ là vật phẩm, đó là ký ức.\" - Cú Mèo",
-            "\"Khám phá thế giới, khám phá chính mình!\" - Red Panda",
-            "\"Đôi khi điều kỳ diệu ở ngay bên cạnh ta.\" - Mèo Calico",
-            "\"Nước có thể chảy, nước có thể đập...\" - Axolotl",
-            "\"Sự bình yên đến từ trái tim thanh thản.\" - Gấu Trúc",
-            "\"Dũng cảm không có nghĩa là không sợ hãi.\" - Sư Tử"
+            // Rabbit - Gentle, curious
+            "\"Every little friend has a story to tell...\" - Rabbit",
+            "\"Hop into adventure, one step at a time!\" - Rabbit",
+            
+            // Fox - Wise, mysterious
+            "\"Be patient, magic will come!\" - Fox",
+            "\"The forest whispers secrets to those who listen.\" - Fox",
+            
+            // Capybara - Chill, friendly
+            "\"Helping others makes us happy.\" - Capybara",
+            "\"Take it easy, friend. Good things take time.\" - Capybara",
+            "\"Everyone is welcome in my pond!\" - Capybara",
+            
+            // Shiba Dog - Loyal, playful
+            "\"Friends are the most precious treasure!\" - Shiba Dog",
+            "\"Woof! Let's go on an adventure together!\" - Shiba Dog",
+            
+            // Owl - Wise, philosophical
+            "\"Masks aren't just items, they're memories.\" - Owl",
+            "\"Knowledge is the greatest gift one can share.\" - Owl",
+            "\"The night holds many wonders for the curious.\" - Owl",
+            
+            // Red Panda - Adventurous, playful
+            "\"Explore the world, discover yourself!\" - Red Panda",
+            "\"Life is more fun when you climb higher!\" - Red Panda",
+            
+            // Calico Cat - Mysterious, elegant
+            "\"Sometimes miracles are right beside us.\" - Calico Cat",
+            "\"A little mystery makes life interesting, nya~\" - Calico Cat",
+            
+            // Axolotl - Unique, quirky
+            "\"Water can flow, water can crash...\" - Axolotl",
+            "\"Being different is my superpower!\" - Axolotl",
+            "\"Smile! It's a beautiful day underwater~\" - Axolotl",
+            
+            // Panda - Peaceful, zen
+            "\"Peace comes from a calm heart.\" - Panda",
+            "\"Enjoy each bamboo... I mean, each moment!\" - Panda",
+            "\"Balance in all things, my friend.\" - Panda",
+            
+            // Lion - Brave, noble
+            "\"Being brave doesn't mean having no fear.\" - Lion",
+            "\"A true king protects those who cannot protect themselves.\" - Lion",
+            "\"Courage roars from within!\" - Lion",
+            
+            // Bird - Free, cheerful
+            "\"Every day is a new song to sing!\" - Bird",
+            "\"Spread your wings and believe!\" - Bird"
         };
 
         private int _currentQuoteIndex = 0;

@@ -167,7 +167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1596769843938402815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5295992955682241313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -555,25 +555,33 @@ MonoBehaviour:
   fadeOutDuration: 0.3
   quoteChangeInterval: 3
   animalQuotes:
-  - "\"M\u1ED7i ng\u01B0\u1EDDi b\u1EA1n nh\u1ECF \u0111\u1EC1u c\xF3 m\u1ED9t c\xE2u
-    chuy\u1EC7n...\" - Ch\xFA Th\u1ECF"
-  - "\"H\xE3y ki\xEAn nh\u1EABn, ph\xE9p m\xE0u s\u1EBD \u0111\u1EBFn!\" - C\xE1o
-    con"
-  - "\"Gi\xFAp \u0111\u1EE1 ai \u0111\xF3 khi\u1EBFn ta th\u1EA5y h\u1EA1nh ph\xFAc.\"
-    - Capybara"
-  - "\"B\u1EA1n b\xE8 l\xE0 kho b\xE1u qu\xFD gi\xE1 nh\u1EA5t.\" - Ch\xF3 Shiba"
-  - "\"M\u1EB7t n\u1EA1 kh\xF4ng ch\u1EC9 l\xE0 v\u1EADt ph\u1EA9m, \u0111\xF3 l\xE0
-    k\xFD \u1EE9c.\" - C\xFA M\xE8o"
-  - "\"Kh\xE1m ph\xE1 th\u1EBF gi\u1EDBi, kh\xE1m ph\xE1 ch\xEDnh m\xECnh!\" - Red
-    Panda"
-  - "\"\u0110\xF4i khi \u0111i\u1EC1u k\u1EF3 di\u1EC7u \u1EDF ngay b\xEAn c\u1EA1nh
-    ta.\" - M\xE8o Calico"
-  - "\"N\u01B0\u1EDBc c\xF3 th\u1EC3 ch\u1EA3y, n\u01B0\u1EDBc c\xF3 th\u1EC3 \u0111\u1EADp...\"
-    - Axolotl"
-  - "\"S\u1EF1 b\xECnh y\xEAn \u0111\u1EBFn t\u1EEB tr\xE1i tim thanh th\u1EA3n.\"
-    - G\u1EA5u Tr\xFAc"
-  - "\"D\u0169ng c\u1EA3m kh\xF4ng c\xF3 ngh\u0129a l\xE0 kh\xF4ng s\u1EE3 h\xE3i.\"
-    - S\u01B0 T\u1EED"
+  - '"Every little friend has a story to tell..." - Rabbit'
+  - '"Hop into adventure, one step at a time!" - Rabbit'
+  - '"Be patient, magic will come!" - Fox'
+  - '"The forest whispers secrets to those who listen." - Fox'
+  - '"Helping others makes us happy." - Capybara'
+  - '"Take it easy, friend. Good things take time." - Capybara'
+  - '"Everyone is welcome in my pond!" - Capybara'
+  - '"Friends are the most precious treasure!" - Shiba Dog'
+  - '"Woof! Let''s go on an adventure together!" - Shiba Dog'
+  - '"Masks aren''t just items, they''re memories." - Owl'
+  - '"Knowledge is the greatest gift one can share." - Owl'
+  - '"The night holds many wonders for the curious." - Owl'
+  - '"Explore the world, discover yourself!" - Red Panda'
+  - '"Life is more fun when you climb higher!" - Red Panda'
+  - '"Sometimes miracles are right beside us." - Calico Cat'
+  - '"A little mystery makes life interesting, nya~" - Calico Cat'
+  - '"Water can flow, water can crash..." - Axolotl'
+  - '"Being different is my superpower!" - Axolotl'
+  - '"Smile! It''s a beautiful day underwater~" - Axolotl'
+  - '"Peace comes from a calm heart." - Panda'
+  - '"Enjoy each bamboo... I mean, each moment!" - Panda'
+  - '"Balance in all things, my friend." - Panda'
+  - '"Being brave doesn''t mean having no fear." - Lion'
+  - '"A true king protects those who cannot protect themselves." - Lion'
+  - '"Courage roars from within!" - Lion'
+  - '"Every day is a new song to sing!" - Bird'
+  - '"Spread your wings and believe!" - Bird'
 --- !u!1 &6488672737342560046
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,10 +725,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8692853577561132282}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 600, y: 60}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: -200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2928811449318960780
 CanvasRenderer:
@@ -777,10 +785,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0

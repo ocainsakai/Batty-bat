@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb81466129ed3424ab5bb28e28429113
+guid: c49752e2e804342f081afa19a3d98afb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3017411765690238794
-    second: bird_mask_0
+      213: 1931621681936875155
+    second: bird_mask Background Removed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bird_mask_0
+      name: bird_mask Background Removed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 216
+        y: 270
+        width: 612
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a470d03930000e920800000000000000
-      internalID: 3017411765690238794
+      spriteID: 39e3a408faf7eca10800000000000000
+      internalID: 1931621681936875155
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bird_mask_0: 3017411765690238794
+      bird_mask Background Removed_0: 1931621681936875155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
