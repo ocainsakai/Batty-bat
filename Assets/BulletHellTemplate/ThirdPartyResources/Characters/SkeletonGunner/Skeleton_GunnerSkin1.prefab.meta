@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bee65415ba1aadf419b57b7c9e11e35e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/SkeletonGunner/Skeleton_GunnerSkin1.prefab
+  uploadId: 741232

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7e1c191dd8afb84da7343d44f8345de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/DaggerEffect/Mesh/Cone.prefab
+  uploadId: 741232

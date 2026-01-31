@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 692dfdefcd910164cbc23e29df21b0ef
+timeCreated: 1521213145
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Shiny/Materials/FireEffect.mat
+  uploadId: 741232

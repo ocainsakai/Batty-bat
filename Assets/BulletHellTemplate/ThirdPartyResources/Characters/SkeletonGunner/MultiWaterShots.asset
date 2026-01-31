@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: MultiWaterShots
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 07c56a52533097c4198dad3c6bb235f4, type: 3}
+  iconEvolved: {fileID: 21300000, guid: 07c56a52533097c4198dad3c6bb235f4, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 8deeeeae7da587749ae15f8300f603c2, type: 3}
+  skillName: Water shooting outbreak
+  skillNameTranslated: []
+  skillDescription: Throw 8 Water shots in a circle shape.
+  skillDescriptionTranslated: []
+  damageType: {fileID: 11400000, guid: c08ae259cecf3ea40b589b48425c6e4b, type: 2}
+  cooldown: 6
+  delayToLaunch: 0.4
+  delayToMove: 0
+  canRotateWhileStopped: 0
+  autoAttackDelay: 1.3
+  manaCost: 0
+  AimMode: 0
+  damageEntityPrefab: {fileID: -7986080780167093631, guid: 6dca33373b44cbb4b8afb13c5023fb31,
+    type: 3}
+  spawnEffect: {fileID: 471954124924366040, guid: 51c41e75274b9d54d935560604fd9e86,
+    type: 3}
+  spawnAudio: {fileID: 0}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 8300000, guid: 745abd5f5a0343944810f05d05540571, type: 3}
+  playSkillAudioEaShot: 0
+  playSkillAudioAfter: 0.32
+  HitEffect: {fileID: 2229347667842700779, guid: 709fe9e2bea0d3c4e9af33a457096119,
+    type: 3}
+  HitAudio: {fileID: 8300000, guid: 9f832fcc96747c448961593735a1d76c, type: 3}
+  rangeIndicatorType: 0
+  radialIndicatorSettings:
+    radiusArea: 0
+    useCastIndicator: 0
+  radialAoEIndicatorSettings:
+    radiusMaxRange: 0
+    radiusArea: 0
+    useCastIndicator: 0
+  arrowIndicatorSettings:
+    arrowSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  coneIndicatorSettings:
+    ConeSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  launchType: 0
+  airStrikeHeight: 0
+  isRotateToEnemy: 1
+  rotateDuration: 1.2
+  destroyOnFirstHit: 0
+  sizeChangeConfig:
+    enableSizeChange: 0
+    initialSizeX: 1
+    finalSizeX: 1
+    sizeChangeTimeX: 0
+    initialSizeY: 1
+    finalSizeY: 1
+    sizeChangeTimeY: 0
+    initialSizeZ: 1
+    finalSizeZ: 1
+    sizeChangeTimeZ: 0
+  isHpLeech: 0
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  isMultiShot: 1
+  shots: 10
+  angle: 210
+  delay: 0.05
+  isAdvancedMultiShot: 0
+  playAnimationEaShot: 0
+  shotWaves: []
+  shotWavesEvolved: []
+  isOrbital: 0
+  orbitalDistance: 5
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  advancedDashSettings:
+    enableAdvancedDash: 0
+    AnimationTriggerEachDash: 0
+    dashWaves: 1
+    delayBetweenWaves: 0
+    dashMode: 0
+    dashSpeed: 10
+    dashDuration: 0.3
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0.5
+  slowDuration: 0.7
+  applyKnockback: 1
+  knockbackDistance: 1
+  knockbackDuration: 0.13
+  applyStun: 0
+  stunDuration: 1
+  applyDOT: 0
+  dotAmount: 70
+  dotDuration: 3
+  receiveHeal: 0
+  healAmount: 0
+  receiveShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  receiveMoveSpeed: 0
+  moveSpeedAmount: 0
+  moveSpeedDuration: 0
+  receiveAttackSpeed: 0
+  attackSpeedAmount: 0
+  attackSpeedDuration: 0
+  receiveDefense: 0
+  defenseAmount: 0
+  defenseDuration: 0
+  receiveDamage: 0
+  damageAmount: 0
+  damageDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  receiveSlow: 0
+  receiveSlowAmount: 0
+  receiveSlowDuration: 0
+  evolvedDamageEntityPrefab: {fileID: -7986080780167093631, guid: 6dca33373b44cbb4b8afb13c5023fb31,
+    type: 3}
+  evolveChanges: 0
+  shotsEvolved: 0
+  angleEvolved: 30
+  delayEvolved: 0
+  skillLevels:
+  - baseDamage: 30
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 10
+    lifeTime: 2
+    isEvolved: 0
+  - baseDamage: 75
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 10
+    lifeTime: 2
+    isEvolved: 0
+  - baseDamage: 115
+    attackerDamageRate: 1.15
+    canCauseCriticalDamage: 1
+    speed: 10
+    lifeTime: 2
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 43558336e87331e42ae9f2d8855802a1,
+    type: 2}

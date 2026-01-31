@@ -1,0 +1,5 @@
+-The asset uses "Images from Resources/UI folder" from the Dragon Crashers - UI Toolkit Sample project asset under "Unity Companion License".
+
+-The asset uses "Font Ander Hedge" from the Dragon Crashers - UI Toolkit Sample project asset under "Unity Companion License".
+
+-Font Ander Hedge creator Jayvee D. Enaguas (Grand Chaos).

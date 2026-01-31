@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c6d49360d5b40e468ea257e727c6940
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Survival/Poison/Transparent.mat
+  uploadId: 741232

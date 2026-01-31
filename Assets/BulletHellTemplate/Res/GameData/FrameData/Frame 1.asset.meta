@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 07522d8fabf410447856639b705ed1e4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/FrameData/Frame 1.asset
+  uploadId: 741232

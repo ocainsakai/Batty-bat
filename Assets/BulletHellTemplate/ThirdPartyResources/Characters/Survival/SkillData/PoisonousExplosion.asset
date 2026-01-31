@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: PoisonousExplosion
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: dedf2fbe9ad8f8a4682d9276d1ff9693, type: 3}
+  iconEvolved: {fileID: 21300000, guid: dedf2fbe9ad8f8a4682d9276d1ff9693, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 8deeeeae7da587749ae15f8300f603c2, type: 3}
+  skillName: Poisonous explosion
+  skillNameTranslated: []
+  skillDescription: Throws several poisonous vials that quickly explode, forming
+    a barrier of poisonous slime.
+  skillDescriptionTranslated: []
+  damageType: {fileID: 11400000, guid: b0bee3aa2a5a25e449ec187a43a15915, type: 2}
+  cooldown: 5
+  delayToLaunch: 0.1
+  delayToMove: 0
+  canRotateWhileStopped: 0
+  autoAttackDelay: 1
+  manaCost: 0
+  AimMode: 0
+  damageEntityPrefab: {fileID: 2647956833742281489, guid: deffb8482a7e9664285bd70842f56d7b,
+    type: 3}
+  spawnEffect: {fileID: 0}
+  spawnAudio: {fileID: 8300000, guid: 686987b71000bc24891fc52dde0661e3, type: 3}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 8300000, guid: 85b3f5c36a9290d48b81a85ec230c0d3, type: 3}
+  playSkillAudioEaShot: 1
+  playSkillAudioAfter: 0
+  HitEffect: {fileID: 2229347667842700779, guid: 709fe9e2bea0d3c4e9af33a457096119,
+    type: 3}
+  HitAudio: {fileID: 0}
+  rangeIndicatorType: 0
+  radialIndicatorSettings:
+    radiusArea: 0
+    useCastIndicator: 0
+  radialAoEIndicatorSettings:
+    radiusMaxRange: 0
+    radiusArea: 0
+    useCastIndicator: 0
+  arrowIndicatorSettings:
+    arrowSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  coneIndicatorSettings:
+    ConeSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  launchType: 0
+  airStrikeHeight: 0
+  isRotateToEnemy: 1
+  rotateDuration: 1
+  destroyOnFirstHit: 0
+  sizeChangeConfig:
+    enableSizeChange: 0
+    initialSizeX: 1
+    finalSizeX: 1
+    sizeChangeTimeX: 0
+    initialSizeY: 1
+    finalSizeY: 1
+    sizeChangeTimeY: 0
+    initialSizeZ: 1
+    finalSizeZ: 1
+    sizeChangeTimeZ: 0
+  isHpLeech: 0
+  explodeOnDestroy: 1
+  explodeDamageEntity: {fileID: 4037565936685417475, guid: b32e1d324421a244fb0562c4c4bcfce0,
+    type: 3}
+  explodeEntitySettings:
+    baseDamage: 25
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 0
+    lifeTime: 4
+    isEvolved: 1
+  isMultiShot: 1
+  shots: 5
+  angle: 150
+  delay: 0.1
+  isAdvancedMultiShot: 0
+  playAnimationEaShot: 0
+  shotWaves: []
+  shotWavesEvolved: []
+  isOrbital: 0
+  orbitalDistance: 5
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 5
+  dashDuration: 0.5
+  advancedDashSettings:
+    enableAdvancedDash: 0
+    AnimationTriggerEachDash: 0
+    dashWaves: 1
+    delayBetweenWaves: 0
+    dashMode: 0
+    dashSpeed: 10
+    dashDuration: 0.3
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0.5
+  slowDuration: 0.4
+  applyKnockback: 0
+  knockbackDistance: 0.7
+  knockbackDuration: 0.1
+  applyStun: 0
+  stunDuration: 1
+  applyDOT: 1
+  dotAmount: 20
+  dotDuration: 2
+  receiveHeal: 0
+  healAmount: 0
+  receiveShield: 0
+  shieldAmount: 650
+  shieldDuration: 2
+  receiveMoveSpeed: 0
+  moveSpeedAmount: 0
+  moveSpeedDuration: 0
+  receiveAttackSpeed: 0
+  attackSpeedAmount: 0
+  attackSpeedDuration: 0
+  receiveDefense: 0
+  defenseAmount: 0
+  defenseDuration: 0
+  receiveDamage: 0
+  damageAmount: 0
+  damageDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  receiveSlow: 0
+  receiveSlowAmount: 0
+  receiveSlowDuration: 0
+  evolvedDamageEntityPrefab: {fileID: 2647956833742281489, guid: deffb8482a7e9664285bd70842f56d7b,
+    type: 3}
+  evolveChanges: 1
+  shotsEvolved: 12
+  angleEvolved: 360
+  delayEvolved: 0.1
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 6
+    lifeTime: 0.6
+    isEvolved: 0
+  - baseDamage: 50
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 6
+    lifeTime: 0.6
+    isEvolved: 0
+  - baseDamage: 75
+    attackerDamageRate: 1.15
+    canCauseCriticalDamage: 1
+    speed: 6
+    lifeTime: 0.7
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: c1040bdc5d7ba4747b0cd40d07cdba2f,
+    type: 2}

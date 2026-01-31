@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66df4c55ba5d8124696a89a691cdf850
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Pants/PantsCommon.asset
+  uploadId: 741232

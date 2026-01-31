@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8f8b5a4ec154a7b469ec0d18ee4e122c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/LookAtCamera.cs
+  uploadId: 741232

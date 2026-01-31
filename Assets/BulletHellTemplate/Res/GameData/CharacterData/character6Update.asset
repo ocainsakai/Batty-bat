@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8463ac8c2de284e8e4f862016807f0, type: 3}
+  m_Name: character6Update
+  m_EditorClassIdentifier: 
+  characterName: Flarewraith
+  characterNameTranslated:
+  - LanguageId: en
+    Translate: Flarewraith
+  - LanguageId: pt
+    Translate: Flarewraith
+  - LanguageId: zh
+    Translate: "\u70C8\u7130\u5E7D\u9B42"
+  - LanguageId: ja
+    Translate: "\u30D5\u30EC\u30A2\u30EC\u30A4\u30B9"
+  - LanguageId: ko
+    Translate: "\uD50C\uB808\uC5B4\uB808\uC774\uC2A4"
+  characterDescription: A cosmic fire mage, Flarewraith rains fiery meteors upon
+    his foes, conjuring barriers to halt enemies and unleashing devastating black
+    holes that consume everything in their path.
+  characterDescriptionTranslated:
+  - LanguageId: en
+    Translate: A cosmic fire mage, Flarewraith rains fiery meteors upon his foes,
+      conjuring barriers to halt enemies and unleashing devastating black holes that
+      consume everything in their path.
+  - LanguageId: pt
+    Translate: "Um mago c\xF3smico do fogo, Flarewraith invoca meteoros flamejantes
+      contra seus inimigos, cria barreiras para det\xEA-los e libera buracos negros
+      devastadores que consomem tudo em seu caminho."
+  - LanguageId: zh
+    Translate: "\u4E00\u4F4D\u5B87\u5B99\u706B\u7130\u6CD5\u5E08\uFF0C\u70C8\u7130\u5E7D\u9B42\u53EC\u5524\u70BD\u70ED\u7684\u6D41\u661F\u7838\u5411\u654C\u4EBA\uFF0C\u6784\u7B51\u5C4F\u969C\u963B\u6321\u4ED6\u4EEC\uFF0C\u5E76\u91CA\u653E\u6BC1\u706D\u6027\u7684\u9ED1\u6D1E\u541E\u566C\u6CBF\u9014\u7684\u4E00\u5207\u3002"
+  - LanguageId: ja
+    Translate: "\u5B87\u5B99\u306E\u708E\u3092\u64CD\u308B\u9B54\u5C0E\u58EB\u3001\u30D5\u30EC\u30A2\u30EC\u30A4\u30B9\u306F\u71C3\u3048\u76DB\u308B\u9695\u77F3\u3092\u6575\u306B\u964D\u3089\u305B\u3001\u969C\u58C1\u3092\u7BC9\u3044\u3066\u9032\u884C\u3092\u963B\u307F\u3001\u5168\u3066\u3092\u98F2\u307F\u8FBC\u3080\u7834\u6EC5\u7684\u306A\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u3092\u89E3\u304D\u653E\u3064\u3002"
+  - LanguageId: ko
+    Translate: "\uC6B0\uC8FC\uC758 \uBD88\uAF43\uC744 \uB2E4\uB8E8\uB294 \uB9C8\uBC95\uC0AC
+      \uD50C\uB808\uC5B4\uB808\uC774\uC2A4\uB294 \uC801\uB4E4\uC5D0\uAC8C \uD0C0\uC624\uB974\uB294
+      \uC720\uC131\uC744 \uD37C\uBD80\uC73C\uBA70, \uBC29\uBCBD\uC744 \uB9CC\uB4E4\uC5B4
+      \uADF8\uB4E4\uC758 \uAE38\uC744 \uB9C9\uACE0, \uBAA8\uB4E0 \uAC83\uC744 \uC9D1\uC5B4\uC0BC\uD0A4\uB294
+      \uCE58\uBA85\uC801\uC778 \uBE14\uB799\uD640\uC744 \uC18C\uD658\uD55C\uB2E4."
+  characterId: 5
+  characterType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  icon: {fileID: 21300000, guid: 45661d366367c0b4e95731d4da331c33, type: 3}
+  tierIcon: {fileID: 21300000, guid: 09ac96ec04b5ff845a6674da668c2a0e, type: 3}
+  characterClassType: Mage
+  characterClassTranslated:
+  - LanguageId: en
+    Translate: Mage
+  - LanguageId: pt
+    Translate: Mago
+  - LanguageId: zh
+    Translate: "\u6CD5\u5E08"
+  - LanguageId: ja
+    Translate: "\u30E1\u30A4\u30B8"
+  - LanguageId: ko
+    Translate: "\uBA54\uC774\uC9C0"
+  characterClassIcon: {fileID: 21300000, guid: f47f7e8121197124ebd60054d4bed1c2, type: 3}
+  characterRarity: 3
+  characterModel: {fileID: 8447084066916605358, guid: 9c221c2a081b8b440af630910130d307,
+    type: 3}
+  characterSkins:
+  - skinIcon: {fileID: 21300000, guid: 45661d366367c0b4e95731d4da331c33, type: 3}
+    skinName: Flarewraith
+    skinNameTranslated:
+    - LanguageId: en
+      Translate: Flarewraith
+    - LanguageId: pt
+      Translate: Flarewraith
+    - LanguageId: zh
+      Translate: "\u70C8\u7130\u5E7D\u9B42"
+    - LanguageId: ja
+      Translate: "\u30D5\u30EC\u30A2\u30EC\u30A4\u30B9"
+    - LanguageId: ko
+      Translate: "\uD50C\uB808\uC5B4\uB808\uC774\uC2A4"
+    skinCharacterModel: {fileID: 8447084066916605358, guid: 9c221c2a081b8b440af630910130d307,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: 
+    unlockPrice: 0
+  - skinIcon: {fileID: 21300000, guid: 45661d366367c0b4e95731d4da331c33, type: 3}
+    skinName: Golden Flarewraith
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 8447084066916605358, guid: 4e6b117129e37194faf631bbdb6767ad,
+      type: 3}
+    isUnlocked: 0
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  autoAttack: {fileID: 11400000, guid: 739322c851669ef42aaab479f4c34d45, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 07d16ec228e2f8f4e926aeaf291adebb, type: 2}
+  - {fileID: 11400000, guid: 0eb6ae207cc8c7740882d91cdc677213, type: 2}
+  - {fileID: 11400000, guid: c072397d7ea4b604f867c72e25613024, type: 2}
+  itemSlots:
+  - Head
+  - Armor
+  - Pants
+  - Shoes
+  runeSlots:
+  - Rune Universal
+  - Rune Defense
+  - Rune Attack
+  - Rune Support
+  isUnlock: 1
+  baseStats:
+    baseHP: 1000
+    baseHPRegen: 2
+    baseHPLeech: 0.15
+    baseMP: 100
+    baseMPRegen: 4
+    baseDamage: 90
+    baseAttackSpeed: 2.5
+    baseCooldownReduction: 0
+    baseCriticalRate: 0.65
+    baseCriticalDamageMultiplier: 2
+    baseDefense: 0
+    baseShield: 0
+    baseMoveSpeed: 2.2
+    baseCollectRange: 2
+    baseMaxStats: 3
+    baseMaxSkills: 3
+  maxLevel: 10
+  statsPercentageIncreaseByLevel: 0.1
+  expCalculationMethod: 1
+  initialExp: 20
+  finalExp: 500
+  expPerLevel: 140000001d000000290000003a0000005400000078000000ab000000f50000005e010000f4010000
+  currencyId: UP
+  upgradeCostPerLevel: 1900000026000000390000005500000081000000c200000024010000b901000098020000e8030000
+  initialUpgradeCost: 25
+  finalUpgradeCost: 1000
+  upgradeCostCalculationMethod: 1
+  statUpgrades:
+  - upgradeName: Hp Max
+    upgradeNameTranslated: []
+    statType: 0
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 8cc6b8c9d6c036e4e814b5dc5e7e7ee3, type: 3}
+    currencyTag: GO
+  - upgradeName: Damage Plus
+    upgradeNameTranslated: []
+    statType: 5
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: Collector
+    upgradeNameTranslated: []
+    statType: 13
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+    currencyTag: GO
+  - upgradeName: More Stats
+    upgradeNameTranslated: []
+    statType: 14
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: More Skills
+    upgradeNameTranslated: []
+    statType: 15
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4cbe8b484af4177408535d945b02ee66, type: 3}
+    currencyTag: GO

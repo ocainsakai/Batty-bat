@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0dad39f8f6dcc994393519eddf3ffd87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Swirl/SwirlEffect.prefab
+  uploadId: 741232

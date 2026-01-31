@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 55d48e62161c35a418fa8dc5a75d6c78
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/Monster/MonsterEntity.cs
+  uploadId: 741232

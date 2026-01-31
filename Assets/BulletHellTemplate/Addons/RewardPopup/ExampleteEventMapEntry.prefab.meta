@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10949c96c710a6145b3a3f2bbe8fdc78
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/RewardPopup/ExampleteEventMapEntry.prefab
+  uploadId: 741232

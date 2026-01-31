@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b13a7adb08fdc94196a41788d5bda45
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Sword/Materials/EffectIconDark.mat
+  uploadId: 741232

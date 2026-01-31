@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb298f81ea3a4854fa2bc8c87a95d2e1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Runes/RuneAttackCommon.asset
+  uploadId: 741232

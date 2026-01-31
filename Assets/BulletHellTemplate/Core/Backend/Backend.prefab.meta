@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f3f46d844a8de35488e5b779fb5d587e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/Backend/Backend.prefab
+  uploadId: 741232

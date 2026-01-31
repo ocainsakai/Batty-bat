@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: SurvivalAA
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 120378728775f8d45ab0a9a87a352cac, type: 3}
+  iconEvolved: {fileID: 21300000, guid: 120378728775f8d45ab0a9a87a352cac, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 8deeeeae7da587749ae15f8300f603c2, type: 3}
+  skillName: Bottle of poisons
+  skillNameTranslated: []
+  skillDescription: Throws 2 vials of poison
+  skillDescriptionTranslated: []
+  damageType: {fileID: 11400000, guid: b0bee3aa2a5a25e449ec187a43a15915, type: 2}
+  cooldown: 5
+  delayToLaunch: 0.12
+  delayToMove: 0
+  canRotateWhileStopped: 0
+  autoAttackDelay: 1
+  manaCost: 0
+  AimMode: 0
+  damageEntityPrefab: {fileID: 2647956833742281489, guid: deffb8482a7e9664285bd70842f56d7b,
+    type: 3}
+  spawnEffect: {fileID: 0}
+  spawnAudio: {fileID: 0}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 8300000, guid: 85b3f5c36a9290d48b81a85ec230c0d3, type: 3}
+  playSkillAudioEaShot: 0
+  playSkillAudioAfter: 0.1
+  HitEffect: {fileID: 2229347667842700779, guid: 709fe9e2bea0d3c4e9af33a457096119,
+    type: 3}
+  HitAudio: {fileID: 8300000, guid: c29be2aded73830418577a4a8d7ba675, type: 3}
+  rangeIndicatorType: 0
+  radialIndicatorSettings:
+    radiusArea: 0
+    useCastIndicator: 0
+  radialAoEIndicatorSettings:
+    radiusMaxRange: 0
+    radiusArea: 0
+    useCastIndicator: 0
+  arrowIndicatorSettings:
+    arrowSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  coneIndicatorSettings:
+    ConeSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  launchType: 0
+  airStrikeHeight: 0
+  isRotateToEnemy: 1
+  rotateDuration: 0.5
+  destroyOnFirstHit: 1
+  sizeChangeConfig:
+    enableSizeChange: 0
+    initialSizeX: 1
+    finalSizeX: 1
+    sizeChangeTimeX: 0
+    initialSizeY: 1
+    finalSizeY: 1
+    sizeChangeTimeY: 0
+    initialSizeZ: 1
+    finalSizeZ: 1
+    sizeChangeTimeZ: 0
+  isHpLeech: 0
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  isMultiShot: 1
+  shots: 2
+  angle: 15
+  delay: 0
+  isAdvancedMultiShot: 0
+  playAnimationEaShot: 0
+  shotWaves: []
+  shotWavesEvolved: []
+  isOrbital: 0
+  orbitalDistance: 5
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  advancedDashSettings:
+    enableAdvancedDash: 0
+    AnimationTriggerEachDash: 0
+    dashWaves: 1
+    delayBetweenWaves: 0
+    dashMode: 0
+    dashSpeed: 10
+    dashDuration: 0.3
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0.4
+  slowDuration: 0.4
+  applyKnockback: 0
+  knockbackDistance: 0.3
+  knockbackDuration: 0.1
+  applyStun: 0
+  stunDuration: 0.4
+  applyDOT: 0
+  dotAmount: 200
+  dotDuration: 3
+  receiveHeal: 0
+  healAmount: 0
+  receiveShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  receiveMoveSpeed: 0
+  moveSpeedAmount: 0
+  moveSpeedDuration: 0
+  receiveAttackSpeed: 0
+  attackSpeedAmount: 0
+  attackSpeedDuration: 0
+  receiveDefense: 0
+  defenseAmount: 0
+  defenseDuration: 0
+  receiveDamage: 0
+  damageAmount: 0
+  damageDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  receiveSlow: 0
+  receiveSlowAmount: 0
+  receiveSlowDuration: 0
+  evolvedDamageEntityPrefab: {fileID: 2647956833742281489, guid: deffb8482a7e9664285bd70842f56d7b,
+    type: 3}
+  evolveChanges: 0
+  shotsEvolved: 0
+  angleEvolved: 30
+  delayEvolved: 0
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 0
+    speed: 7
+    lifeTime: 0.7
+    isEvolved: 0
+  - baseDamage: 25
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 0
+    speed: 7
+    lifeTime: 0.7
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: c1040bdc5d7ba4747b0cd40d07cdba2f,
+    type: 2}

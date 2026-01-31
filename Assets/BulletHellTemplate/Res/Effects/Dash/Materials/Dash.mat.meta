@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06003196ec1a99b438a60183d711072f
+timeCreated: 1495151947
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Dash/Materials/Dash.mat
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef529eaf366e94944a1e944359c0d8cd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/CharacterFace/Eyes/Eye1/Materials/Eye1IFull.mat
+  uploadId: 741232

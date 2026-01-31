@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 44fc423a63c19aa4aa0e8199f46fe4cf
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Packages/Builtin.unitypackage
+  uploadId: 741232

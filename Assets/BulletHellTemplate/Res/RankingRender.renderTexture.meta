@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e6b2fa86a4474c4a8e4027687f6b601
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/RankingRender.renderTexture
+  uploadId: 741232

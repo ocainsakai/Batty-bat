@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8463ac8c2de284e8e4f862016807f0, type: 3}
+  m_Name: character4
+  m_EditorClassIdentifier: 
+  characterName: 'Scorchblade '
+  characterNameTranslated:
+  - LanguageId: en
+    Translate: Scorchblade
+  - LanguageId: pt
+    Translate: Scorchblade
+  - LanguageId: zh
+    Translate: "\u70C8\u7130\u5203"
+  - LanguageId: ja
+    Translate: "\u30B9\u30B3\u30FC\u30C1\u30D6\u30EC\u30FC\u30C9"
+  - LanguageId: ko
+    Translate: "\uC2A4\uCF54\uCE58\uBE14\uB808\uC774\uB4DC"
+  characterDescription: An agile skeletal warrior engulfed in flames, Scorchblade
+    swiftly strikes foes, draining their essence to fuel his endless blaze.
+  characterDescriptionTranslated:
+  - LanguageId: en
+    Translate: An agile skeletal warrior engulfed in flames, Scorchblade swiftly
+      strikes foes, draining their essence to fuel his endless blaze.
+  - LanguageId: pt
+    Translate: "Um guerreiro esquel\xE9tico \xE1gil envolto em chamas, Scorchblade
+      ataca rapidamente os inimigos, drenando sua ess\xEAncia para alimentar seu
+      fogo eterno."
+  - LanguageId: zh
+    Translate: "\u4E00\u4F4D\u654F\u6377\u7684\u9AB7\u9AC5\u6218\u58EB\uFF0C\u8EAB\u62AB\u70C8\u7130\uFF0C\u70C8\u7130\u5203\u8FC5\u901F\u6253\u51FB\u654C\u4EBA\uFF0C\u5438\u53D6\u4ED6\u4EEC\u7684\u80FD\u91CF\u6765\u7EF4\u6301\u4ED6\u4E0D\u706D\u7684\u706B\u7130\u3002"
+  - LanguageId: ja
+    Translate: "\u708E\u306B\u5305\u307E\u308C\u305F\u4FCA\u654F\u306A\u9AB8\u9AA8\u6226\u58EB\u3001\u30B9\u30B3\u30FC\u30C1\u30D6\u30EC\u30FC\u30C9\u306F\u7D20\u65E9\u304F\u6575\u3092\u65AC\u308A\u3001\u305D\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u5438\u53CE\u3057\u3066\u4E0D\u6EC5\u306E\u708E\u3092\u71C3\u3084\u3057\u7D9A\u3051\u308B\u3002"
+  - LanguageId: ko
+    Translate: "\uBD88\uAF43\uC5D0 \uD729\uC2F8\uC778 \uB0A0\uB835\uD55C \uD574\uACE8
+      \uC804\uC0AC \uC2A4\uCF54\uCE58\uBE14\uB808\uC774\uB4DC\uB294 \uC801\uC744
+      \uBE60\uB974\uAC8C \uACF5\uACA9\uD558\uC5EC \uADF8\uB4E4\uC758 \uC5D0\uB108\uC9C0\uB97C
+      \uD761\uC218\uD558\uBA70 \uC601\uC6D0\uD55C \uBD88\uAE38\uC744 \uC720\uC9C0\uD55C\uB2E4."
+  characterId: 3
+  characterType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  icon: {fileID: 21300000, guid: 6bf2c87daf16599428785c6228a7579e, type: 3}
+  tierIcon: {fileID: 21300000, guid: 09ac96ec04b5ff845a6674da668c2a0e, type: 3}
+  characterClassType: Warrior
+  characterClassTranslated:
+  - LanguageId: en
+    Translate: Warrior
+  - LanguageId: pt
+    Translate: Guerreiro
+  - LanguageId: zh
+    Translate: "\u6218\u58EB"
+  - LanguageId: ja
+    Translate: "\u30A6\u30A9\u30EA\u30A2\u30FC"
+  - LanguageId: ko
+    Translate: "\uC6CC\uB9AC\uC5B4"
+  characterClassIcon: {fileID: 21300000, guid: 8fce8f557328dba44ae0dd212cff7eb2, type: 3}
+  characterRarity: 4
+  characterModel: {fileID: 306770583758182995, guid: 770b721e80560c9438b8970170906f11,
+    type: 3}
+  characterSkins:
+  - skinIcon: {fileID: 21300000, guid: 6bf2c87daf16599428785c6228a7579e, type: 3}
+    skinName: 'Scorchblade '
+    skinNameTranslated:
+    - LanguageId: en
+      Translate: Scorchblade
+    - LanguageId: pt
+      Translate: Scorchblade
+    - LanguageId: zh
+      Translate: "\u70C8\u7130\u5203"
+    - LanguageId: ja
+      Translate: "\u30B9\u30B3\u30FC\u30C1\u30D6\u30EC\u30FC\u30C9"
+    - LanguageId: ko
+      Translate: "\uC2A4\uCF54\uCE58\uBE14\uB808\uC774\uB4DC"
+    skinCharacterModel: {fileID: 306770583758182995, guid: 770b721e80560c9438b8970170906f11,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: DM
+    unlockPrice: 0
+  - skinIcon: {fileID: 21300000, guid: 6bf2c87daf16599428785c6228a7579e, type: 3}
+    skinName: 'Golden Scorchblade '
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 306770583758182995, guid: e9ffb4dde17b9f24b8cbd74b8d881e05,
+      type: 3}
+    isUnlocked: 0
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  autoAttack: {fileID: 11400000, guid: 5f0a856bbc7d9be4baf5f2bb83fc332a, type: 2}
+  skills:
+  - {fileID: 11400000, guid: c9c8af31b1a51f844af21479eb4e8a43, type: 2}
+  - {fileID: 11400000, guid: 6c455d5f4deea8841901b44b65b242e4, type: 2}
+  - {fileID: 11400000, guid: e173bb3ce462cb644acfa3f33c8ea3ac, type: 2}
+  itemSlots:
+  - Head
+  - Armor
+  - Pants
+  - Shoes
+  runeSlots:
+  - Rune Universal
+  - Rune Defense
+  - Rune Attack
+  - Rune Support
+  isUnlock: 0
+  baseStats:
+    baseHP: 1300
+    baseHPRegen: 2
+    baseHPLeech: 0.15
+    baseMP: 100
+    baseMPRegen: 4
+    baseDamage: 100
+    baseAttackSpeed: 2.2
+    baseCooldownReduction: 0
+    baseCriticalRate: 0.65
+    baseCriticalDamageMultiplier: 2
+    baseDefense: 0
+    baseShield: 0
+    baseMoveSpeed: 2.2
+    baseCollectRange: 2
+    baseMaxStats: 3
+    baseMaxSkills: 3
+  maxLevel: 10
+  statsPercentageIncreaseByLevel: 0.1
+  expCalculationMethod: 1
+  initialExp: 20
+  finalExp: 500
+  expPerLevel: 140000001d000000290000003a0000005400000078000000ab000000f50000005e010000f4010000
+  currencyId: UP
+  upgradeCostPerLevel: 1900000026000000390000005500000081000000c200000024010000b901000098020000e8030000
+  initialUpgradeCost: 25
+  finalUpgradeCost: 1000
+  upgradeCostCalculationMethod: 1
+  statUpgrades:
+  - upgradeName: Hp Max
+    upgradeNameTranslated: []
+    statType: 0
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 8cc6b8c9d6c036e4e814b5dc5e7e7ee3, type: 3}
+    currencyTag: GO
+  - upgradeName: Damage Plus
+    upgradeNameTranslated: []
+    statType: 5
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: Collector
+    upgradeNameTranslated: []
+    statType: 13
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+    currencyTag: GO
+  - upgradeName: More Stats
+    upgradeNameTranslated: []
+    statType: 14
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: More Skills
+    upgradeNameTranslated: []
+    statType: 15
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4cbe8b484af4177408535d945b02ee66, type: 3}
+    currencyTag: GO

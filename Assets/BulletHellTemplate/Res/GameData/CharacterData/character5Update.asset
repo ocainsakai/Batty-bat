@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8463ac8c2de284e8e4f862016807f0, type: 3}
+  m_Name: character5Update
+  m_EditorClassIdentifier: 
+  characterName: Shadowfang
+  characterNameTranslated:
+  - LanguageId: en
+    Translate: Shadowfang
+  - LanguageId: pt
+    Translate: Shadowfang
+  - LanguageId: zh
+    Translate: "\u5F71\u7259"
+  - LanguageId: ja
+    Translate: "\u30B7\u30E3\u30C9\u30A6\u30D5\u30A1\u30F3\u30B0"
+  - LanguageId: ko
+    Translate: "\uC100\uB3C4\uC6B0\uD33D"
+  characterDescription: A shadowy assassin cloaked in darkness, Shadowfang dashes
+    unpredictably through the battlefield, slicing enemies before they sense his
+    presence.
+  characterDescriptionTranslated:
+  - LanguageId: en
+    Translate: A shadowy assassin cloaked in darkness, Shadowfang dashes unpredictably
+      through the battlefield, slicing enemies before they sense his presence.
+  - LanguageId: pt
+    Translate: "Um assassino sombrio envolto em escurid\xE3o, Shadowfang avan\xE7a
+      imprevisivelmente pelo campo de batalha, cortando inimigos antes que percebam
+      sua presen\xE7a."
+  - LanguageId: zh
+    Translate: "\u4E00\u4E2A\u88AB\u9ED1\u6697\u7B3C\u7F69\u7684\u6697\u5F71\u523A\u5BA2\uFF0C\u5F71\u7259\u5728\u6218\u573A\u4E0A\u4E0D\u53EF\u9884\u6D4B\u5730\u7A7F\u68AD\uFF0C\u5728\u654C\u4EBA\u5BDF\u89C9\u4E4B\u524D\u5C06\u5176\u65A9\u6740\u3002"
+  - LanguageId: ja
+    Translate: "\u95C7\u306B\u5305\u307E\u308C\u305F\u5F71\u306E\u6697\u6BBA\u8005\u3001\u30B7\u30E3\u30C9\u30A6\u30D5\u30A1\u30F3\u30B0\u306F\u6226\u5834\u3092\u4E88\u6E2C\u4E0D\u80FD\u306B\u99C6\u3051\u5DE1\u308A\u3001\u6575\u304C\u6C17\u4ED8\u304F\u524D\u306B\u65AC\u308A\u4F0F\u305B\u308B\u3002"
+  - LanguageId: ko
+    Translate: "\uC5B4\uB460\uC5D0 \uAC00\uB824\uC9C4 \uADF8\uB9BC\uC790 \uC554\uC0B4\uC790
+      \uC100\uB3C4\uC6B0\uD33D\uC740 \uC804\uC7A5\uC744 \uC608\uCE21\uD560 \uC218
+      \uC5C6\uB294 \uBC29\uC2DD\uC73C\uB85C \uC9C8\uC8FC\uD558\uBA70, \uC801\uC774
+      \uB208\uCE58\uCC44\uAE30 \uC804\uC5D0 \uBCA0\uC5B4\uB0B8\uB2E4."
+  characterId: 4
+  characterType: {fileID: 11400000, guid: 7391b85a83cd29847b2595a1f5986ffb, type: 2}
+  icon: {fileID: 21300000, guid: 55e891bbf0b467c4f9c23f3db6557af7, type: 3}
+  tierIcon: {fileID: 21300000, guid: 09ac96ec04b5ff845a6674da668c2a0e, type: 3}
+  characterClassType: Slayer
+  characterClassTranslated:
+  - LanguageId: en
+    Translate: Slayer
+  - LanguageId: pt
+    Translate: Assassino
+  - LanguageId: zh
+    Translate: "\u5C60\u6740\u8005"
+  - LanguageId: ja
+    Translate: "\u30B9\u30EC\u30A4\u30E4\u30FC"
+  - LanguageId: ko
+    Translate: "\uC2AC\uB808\uC774\uC5B4"
+  characterClassIcon: {fileID: 21300000, guid: 5887fb2985f19e94ab75e548e9f471d6, type: 3}
+  characterRarity: 2
+  characterModel: {fileID: 4744341716773317125, guid: 88532cb1707044e4c8da2c3318cbc564,
+    type: 3}
+  characterSkins:
+  - skinIcon: {fileID: 21300000, guid: 55e891bbf0b467c4f9c23f3db6557af7, type: 3}
+    skinName: Shadowfang
+    skinNameTranslated:
+    - LanguageId: en
+      Translate: Shadowfang
+    - LanguageId: pt
+      Translate: Shadowfang
+    - LanguageId: zh
+      Translate: "\u5F71\u7259"
+    - LanguageId: ja
+      Translate: "\u30B7\u30E3\u30C9\u30A6\u30D5\u30A1\u30F3\u30B0"
+    - LanguageId: ko
+      Translate: "\uC100\uB3C4\uC6B0\uD33D"
+    skinCharacterModel: {fileID: 4744341716773317125, guid: 88532cb1707044e4c8da2c3318cbc564,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: 
+    unlockPrice: 0
+  - skinIcon: {fileID: 21300000, guid: 55e891bbf0b467c4f9c23f3db6557af7, type: 3}
+    skinName: Golden Shadowfang
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 4744341716773317125, guid: e28aca67d572ef0439f0a0339198ab74,
+      type: 3}
+    isUnlocked: 0
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  autoAttack: {fileID: 11400000, guid: 5c22f7aded39b424b8cf6ca0b313c7dc, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 89ad03c057de1574fb19cddd8087f43c, type: 2}
+  - {fileID: 11400000, guid: 54acf8d23ae031245be9d3f99016eb83, type: 2}
+  - {fileID: 11400000, guid: e173bb3ce462cb644acfa3f33c8ea3ac, type: 2}
+  itemSlots:
+  - Head
+  - Armor
+  - Pants
+  - Shoes
+  runeSlots:
+  - Rune Universal
+  - Rune Defense
+  - Rune Attack
+  - Rune Support
+  isUnlock: 1
+  baseStats:
+    baseHP: 1000
+    baseHPRegen: 2
+    baseHPLeech: 0.15
+    baseMP: 100
+    baseMPRegen: 4
+    baseDamage: 50
+    baseAttackSpeed: 2.3
+    baseCooldownReduction: 0
+    baseCriticalRate: 0.65
+    baseCriticalDamageMultiplier: 2
+    baseDefense: 0
+    baseShield: 0
+    baseMoveSpeed: 2.2
+    baseCollectRange: 2
+    baseMaxStats: 3
+    baseMaxSkills: 3
+  maxLevel: 10
+  statsPercentageIncreaseByLevel: 0.1
+  expCalculationMethod: 1
+  initialExp: 20
+  finalExp: 500
+  expPerLevel: 140000001d000000290000003a0000005400000078000000ab000000f50000005e010000f4010000
+  currencyId: UP
+  upgradeCostPerLevel: 1900000026000000390000005500000081000000c200000024010000b901000098020000e8030000
+  initialUpgradeCost: 25
+  finalUpgradeCost: 1000
+  upgradeCostCalculationMethod: 1
+  statUpgrades:
+  - upgradeName: Hp Max
+    upgradeNameTranslated: []
+    statType: 0
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 8cc6b8c9d6c036e4e814b5dc5e7e7ee3, type: 3}
+    currencyTag: GO
+  - upgradeName: Damage Plus
+    upgradeNameTranslated: []
+    statType: 5
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: Collector
+    upgradeNameTranslated: []
+    statType: 13
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+    currencyTag: GO
+  - upgradeName: More Stats
+    upgradeNameTranslated: []
+    statType: 14
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: More Skills
+    upgradeNameTranslated: []
+    statType: 15
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4cbe8b484af4177408535d945b02ee66, type: 3}
+    currencyTag: GO

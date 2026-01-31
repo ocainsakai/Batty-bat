@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4faba929fdc8dfb4faf24b5bcd48000a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/FavouriteCharacter.cs
+  uploadId: 741232

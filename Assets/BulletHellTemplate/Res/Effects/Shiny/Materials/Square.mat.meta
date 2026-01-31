@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a15c70d027a90174cb94c0533e8d0124
+timeCreated: 1495151947
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Shiny/Materials/Square.mat
+  uploadId: 741232

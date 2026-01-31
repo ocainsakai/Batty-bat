@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: da920075f2f1e8a4f9ad88a4f9e512c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/DailyRewards/Scripts/NewAccountRewardManager.cs
+  uploadId: 741232

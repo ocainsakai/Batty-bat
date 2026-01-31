@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: Assasin1
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: e6595d731dcab614fb0110c390c23b53, type: 3}
+  iconEvolved: {fileID: 21300000, guid: e6595d731dcab614fb0110c390c23b53, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 80258322b9918f54a8754bf40528de3f, type: 3}
+  skillName: Normal Ball
+  skillNameTranslated: []
+  skillDescription: 
+  skillDescriptionTranslated: []
+  damageType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  cooldown: 5
+  delayToLaunch: 0.25
+  delayToMove: 0
+  canRotateWhileStopped: 0
+  autoAttackDelay: 1
+  manaCost: 0
+  AimMode: 0
+  damageEntityPrefab: {fileID: 6784418925830046769, guid: 60f0e1bc8d58e904fa4fdbb69179ce64,
+    type: 3}
+  spawnEffect: {fileID: 0}
+  spawnAudio: {fileID: 8300000, guid: 476c4e63abcb0f34abbf7c40bcdea701, type: 3}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 0}
+  playSkillAudioEaShot: 0
+  playSkillAudioAfter: 0.15
+  HitEffect: {fileID: 0}
+  HitAudio: {fileID: 0}
+  rangeIndicatorType: 0
+  radialIndicatorSettings:
+    radiusArea: 0
+    useCastIndicator: 0
+  radialAoEIndicatorSettings:
+    radiusMaxRange: 0
+    radiusArea: 0
+    useCastIndicator: 0
+  arrowIndicatorSettings:
+    arrowSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  coneIndicatorSettings:
+    ConeSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  launchType: 0
+  airStrikeHeight: 0
+  isRotateToEnemy: 1
+  rotateDuration: 1
+  destroyOnFirstHit: 0
+  sizeChangeConfig:
+    enableSizeChange: 0
+    initialSizeX: 1
+    finalSizeX: 1
+    sizeChangeTimeX: 0
+    initialSizeY: 1
+    finalSizeY: 1
+    sizeChangeTimeY: 0
+    initialSizeZ: 1
+    finalSizeZ: 1
+    sizeChangeTimeZ: 0
+  isHpLeech: 1
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  isMultiShot: 0
+  shots: 1
+  angle: 0
+  delay: 0
+  isAdvancedMultiShot: 0
+  playAnimationEaShot: 0
+  shotWaves: []
+  shotWavesEvolved: []
+  isOrbital: 0
+  orbitalDistance: 0
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  advancedDashSettings:
+    enableAdvancedDash: 0
+    AnimationTriggerEachDash: 0
+    dashWaves: 1
+    delayBetweenWaves: 0
+    dashMode: 0
+    dashSpeed: 10
+    dashDuration: 0.3
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0
+  slowDuration: 0
+  applyKnockback: 1
+  knockbackDistance: 2
+  knockbackDuration: 0.2
+  applyStun: 0
+  stunDuration: 2
+  applyDOT: 0
+  dotAmount: 50
+  dotDuration: 2
+  receiveHeal: 0
+  healAmount: 0
+  receiveShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  receiveMoveSpeed: 0
+  moveSpeedAmount: 0
+  moveSpeedDuration: 0
+  receiveAttackSpeed: 0
+  attackSpeedAmount: 0
+  attackSpeedDuration: 0
+  receiveDefense: 0
+  defenseAmount: 0
+  defenseDuration: 0
+  receiveDamage: 0
+  damageAmount: 0
+  damageDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  receiveSlow: 0
+  receiveSlowAmount: 0
+  receiveSlowDuration: 0
+  evolvedDamageEntityPrefab: {fileID: 6784418925830046769, guid: 82e8cc92d86696e4aae403c7c60d8702,
+    type: 3}
+  evolveChanges: 0
+  shotsEvolved: 0
+  angleEvolved: 30
+  delayEvolved: 0
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 8
+    lifeTime: 0.6
+    isEvolved: 0
+  - baseDamage: 50
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 8
+    lifeTime: 0.6
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 43558336e87331e42ae9f2d8855802a1,
+    type: 2}

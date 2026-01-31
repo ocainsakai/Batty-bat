@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e5619dcdd486d6e499d6a7f2830f348f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/RuneEntryApply.prefab
+  uploadId: 741232

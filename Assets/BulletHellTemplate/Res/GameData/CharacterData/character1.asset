@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8463ac8c2de284e8e4f862016807f0, type: 3}
+  m_Name: character1
+  m_EditorClassIdentifier: 
+  characterName: Vicent
+  characterNameTranslated:
+  - LanguageId: en
+    Translate: 'Vincent '
+  - LanguageId: pt
+    Translate: 'Vincent '
+  - LanguageId: zh
+    Translate: "\u6587\u68EE\u7279"
+  - LanguageId: ja
+    Translate: "\u30F4\u30A3\u30F3\u30BB\u30F3\u30C8"
+  - LanguageId: ko
+    Translate: "\uBE48\uC13C\uD2B8"
+  characterDescription: A swift adventurer with fire-infused daggers, Vincent charges
+    through battles, leaving embers in his wake.
+  characterDescriptionTranslated:
+  - LanguageId: en
+    Translate: A swift adventurer with fire-infused daggers, Vincent charges through
+      battles, leaving embers in his wake.
+  - LanguageId: pt
+    Translate: "Um aventureiro \xE1gil com adagas infundidas em fogo, Vincent avan\xE7a
+      pelas batalhas, deixando brasas em seu rastro."
+  - LanguageId: zh
+    Translate: "\u4E00\u4F4D\u654F\u6377\u7684\u5192\u9669\u8005\uFF0C\u624B\u6301\u704C\u6CE8\u706B\u7130\u7684\u5315\u9996\uFF0C\u6587\u68EE\u7279\u51B2\u950B\u9677\u9635\uFF0C\u7559\u4E0B\u70BD\u70ED\u7684\u4F59\u70EC\u3002"
+  - LanguageId: ja
+    Translate: "\u708E\u3092\u5BBF\u3057\u305F\u77ED\u5263\u3092\u64CD\u308B\u4FCA\u654F\u306A\u5192\u967A\u8005\u3001\u30F4\u30A3\u30F3\u30BB\u30F3\u30C8\u306F\u6226\u5834\u3092\u99C6\u3051\u629C\u3051\u3001\u305D\u306E\u8ECC\u8DE1\u306B\u71C3\u3048\u5C3D\u304D\u308B\u706B\u306E\u7C89\u3092\u6B8B\u3059\u3002"
+  - LanguageId: ko
+    Translate: "\uBD88\uAF43\uC774 \uAE43\uB4E0 \uB2E8\uAC80\uC744 \uB4E0 \uB0A0\uB835\uD55C
+      \uBAA8\uD5D8\uAC00 \uBE48\uC13C\uD2B8\uB294 \uC804\uC7A5\uC744 \uC9C8\uC8FC\uD558\uBA70
+      \uBD88\uC528\uB97C \uB0A8\uAE34\uB2E4."
+  characterId: 0
+  characterType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  icon: {fileID: 21300000, guid: a7b9f3e6e0fe9e6408db6e75acf13fe3, type: 3}
+  tierIcon: {fileID: 21300000, guid: efec4c0752ba7a343ad7672ba955fc95, type: 3}
+  characterClassType: Slayer
+  characterClassTranslated:
+  - LanguageId: en
+    Translate: Slayer
+  - LanguageId: pt
+    Translate: Assassino
+  - LanguageId: zh
+    Translate: "\u5C60\u6740\u8005"
+  - LanguageId: ja
+    Translate: "\u30B9\u30EC\u30A4\u30E4\u30FC"
+  - LanguageId: ko
+    Translate: "\uC2AC\uB808\uC774\uC5B4"
+  characterClassIcon: {fileID: 21300000, guid: 5887fb2985f19e94ab75e548e9f471d6, type: 3}
+  characterRarity: 4
+  characterModel: {fileID: 2529108966158168793, guid: 993d3c79a007c584e85d5c744d658032,
+    type: 3}
+  characterSkins:
+  - skinIcon: {fileID: 21300000, guid: 4906ab499d540fd46a1f11931339b237, type: 3}
+    skinName: Vincent
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 2529108966158168793, guid: 993d3c79a007c584e85d5c744d658032,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: 
+    unlockPrice: 0
+  - skinIcon: {fileID: 21300000, guid: 4906ab499d540fd46a1f11931339b237, type: 3}
+    skinName: Ice Vincent
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 2529108966158168793, guid: 231a24feb92d8a546924fdb2d839ce21,
+      type: 3}
+    isUnlocked: 0
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  - skinIcon: {fileID: 21300000, guid: 4906ab499d540fd46a1f11931339b237, type: 3}
+    skinName: Golden Vincent
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 2529108966158168793, guid: e00f2fcf41be34341a12ada01fc38c79,
+      type: 3}
+    isUnlocked: 0
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  autoAttack: {fileID: 11400000, guid: fbf9a097b3b554f44a359df6d379af6a, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 0330465fb06067c45bd5de60269134b6, type: 2}
+  - {fileID: 11400000, guid: 5d5c78e7f76aa9644b100193439a4548, type: 2}
+  - {fileID: 11400000, guid: 4938ca54b0c7445449e4fea572b22291, type: 2}
+  itemSlots:
+  - Head
+  - Armor
+  - Pants
+  - Shoes
+  runeSlots:
+  - Rune Universal
+  - Rune Defense
+  - Rune Attack
+  - Rune Support
+  isUnlock: 1
+  baseStats:
+    baseHP: 870
+    baseHPRegen: 2
+    baseHPLeech: 0.01
+    baseMP: 100
+    baseMPRegen: 7
+    baseDamage: 65
+    baseAttackSpeed: 1.8
+    baseCooldownReduction: 0
+    baseCriticalRate: 0.3
+    baseCriticalDamageMultiplier: 2
+    baseDefense: 0
+    baseShield: 0
+    baseMoveSpeed: 2.2
+    baseCollectRange: 2
+    baseMaxStats: 3
+    baseMaxSkills: 3
+  maxLevel: 10
+  statsPercentageIncreaseByLevel: 0.1
+  expCalculationMethod: 1
+  initialExp: 20
+  finalExp: 500
+  expPerLevel: 140000001d000000290000003a0000005400000078000000ab000000f50000005e010000f4010000
+  currencyId: UP
+  upgradeCostPerLevel: 1900000026000000390000005500000081000000c200000024010000b901000098020000e8030000
+  initialUpgradeCost: 25
+  finalUpgradeCost: 1000
+  upgradeCostCalculationMethod: 1
+  statUpgrades:
+  - upgradeName: Hp Max
+    upgradeNameTranslated: []
+    statType: 0
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 100
+    - 120
+    - 140
+    - 180
+    - 200
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 8cc6b8c9d6c036e4e814b5dc5e7e7ee3, type: 3}
+    currencyTag: GO
+  - upgradeName: Damage Plus
+    upgradeNameTranslated: []
+    statType: 5
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 10
+    - 12
+    - 14
+    - 18
+    - 30
+    upgradeCosts: 2c010000e8030000b80b0000581b0000983a0000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: Collector
+    upgradeNameTranslated: []
+    statType: 13
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    upgradeCosts: d007000010270000a861000050c30000c0d40100
+    upgradeIcon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+    currencyTag: GO
+  - upgradeName: More Stats
+    upgradeNameTranslated: []
+    statType: 14
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 50c30000c0d40100
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: More Skills
+    upgradeNameTranslated: []
+    statType: 15
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 50c30000c0d40100
+    upgradeIcon: {fileID: 21300000, guid: 4cbe8b484af4177408535d945b02ee66, type: 3}
+    currencyTag: GO

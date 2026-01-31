@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4e19e0b22b7fef4db4da1c9fda0d858
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Materials/Boots.mat
+  uploadId: 741232

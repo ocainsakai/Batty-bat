@@ -4,13 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Menu
-  - Ground
-  - Laser
-  - LaserTarget
-  - Mirror
-  - Rock
-  - Prism
+  - Character
+  - Monster
+  - Wall
+  - Box
+  - Minimap
   layers:
   - Default
   - TransparentFX
@@ -18,11 +16,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Collectable
-  - Player
-  - Structure
-  - 
-  - 
+  - Wall
+  - Character
+  - Monster
+  - Box
+  - Minimap
   - 
   - 
   - 

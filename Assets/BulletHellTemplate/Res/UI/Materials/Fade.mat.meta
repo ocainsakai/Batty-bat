@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5893c2fe67aebf42bc779b0c73e93a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/UI/Materials/Fade.mat
+  uploadId: 741232

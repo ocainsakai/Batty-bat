@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd7d0c19b86f99b498f84199cc2d63b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Models/Face.mat
+  uploadId: 741232

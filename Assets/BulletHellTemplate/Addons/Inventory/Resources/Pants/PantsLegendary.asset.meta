@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 871ab8b6b3175f945bdd20506d8efece
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Pants/PantsLegendary.asset
+  uploadId: 741232

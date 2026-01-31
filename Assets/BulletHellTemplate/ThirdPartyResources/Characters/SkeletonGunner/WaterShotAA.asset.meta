@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34549be6d5c46e34493c5b74242de5c9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/SkeletonGunner/WaterShotAA.asset
+  uploadId: 741232

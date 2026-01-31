@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0640cd38da200984aa9ffe9f2ab880a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/SkeletonGunner/Materials/Glow
+    1.mat
+  uploadId: 741232

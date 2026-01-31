@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 637761bf34881f5408db543badc3ebbd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/FX/LevelUp/Prefabs/VerticalRays.prefab
+  uploadId: 741232

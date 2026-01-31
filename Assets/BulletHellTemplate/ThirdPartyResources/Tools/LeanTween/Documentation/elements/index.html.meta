@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6a53cd107c1f4d5498ea9c736e3a650
+timeCreated: 1479471015
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/LeanTween/Documentation/elements/index.html
+  uploadId: 741232

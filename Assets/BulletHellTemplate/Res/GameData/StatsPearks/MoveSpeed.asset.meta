@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 604ab2dc87d65ca4b9be82f9186564c1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/StatsPearks/MoveSpeed.asset
+  uploadId: 741232

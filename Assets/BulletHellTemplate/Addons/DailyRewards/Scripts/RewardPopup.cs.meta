@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 054a15360702db9439f4a29003cc3fa2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/DailyRewards/Scripts/RewardPopup.cs
+  uploadId: 741232

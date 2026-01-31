@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 85b3514d3378dd0419174bd330f5b849
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Drops/GoldDrop.prefab
+  uploadId: 741232

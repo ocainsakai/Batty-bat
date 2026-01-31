@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dea3d37879a25f34eb281c22b2998bff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/ShopData/ShopDataItems/Hat/ShopInventoryHead
+    3.asset
+  uploadId: 741232

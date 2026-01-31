@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03890ae9b8fa2e74196845bf077d58b7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Damages/MonsterNormal_SkillSphereDamageSkill.prefab
+  uploadId: 741232

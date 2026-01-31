@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0cd1c12add8c93409e687243c30ead2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Monsters/MonsterBoss1.controller
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9e63f326a9a325f4cb1bd40e3b492d7a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Characters/CharacterController.controller
+  uploadId: 741232

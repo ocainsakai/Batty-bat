@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 86166a3e8af9baa459d5307e5373368e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/Backend/FirebaseAuthManager.cs
+  uploadId: 741232

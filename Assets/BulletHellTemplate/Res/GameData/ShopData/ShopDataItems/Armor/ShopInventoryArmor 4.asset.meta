@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: da11dc1d73b39a141a08ab687d4d6920
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/ShopData/ShopDataItems/Armor/ShopInventoryArmor
+    4.asset
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 483be6c8ec15de84eb665e0cb9b4d07b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Materials/DaggerMaterials/LightSteel.mat
+  uploadId: 741232

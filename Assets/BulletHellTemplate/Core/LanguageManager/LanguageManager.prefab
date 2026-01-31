@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &844791413154106384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3917706279509873719}
+  - component: {fileID: 8472075993943615444}
+  m_Layer: 0
+  m_Name: LanguageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3917706279509873719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844791413154106384}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 510.763, y: 1173.8729, z: 11.592888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8472075993943615444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844791413154106384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b6d7b5fb90b5541ad130e1e9f96387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableTMPWarnings: 1
+  languageMode: 0
+  currentLanguageID: en
+  Languages:
+  - LanguageID: en
+    LanguageTitle: English
+    LanguageIcon: {fileID: 0}
+    changeFontOnSwap: 1
+    fontAssetTextMesh: {fileID: 11400000, guid: 71458e17f63183b4c815ef45cd3d6b7d,
+      type: 2}
+    fontAsset: {fileID: 0}
+    applyBold: 0
+  - LanguageID: pt
+    LanguageTitle: Portugues
+    LanguageIcon: {fileID: 0}
+    changeFontOnSwap: 1
+    fontAssetTextMesh: {fileID: 11400000, guid: 71458e17f63183b4c815ef45cd3d6b7d,
+      type: 2}
+    fontAsset: {fileID: 0}
+    applyBold: 0
+  - LanguageID: zh
+    LanguageTitle: Chinese
+    LanguageIcon: {fileID: 0}
+    changeFontOnSwap: 1
+    fontAssetTextMesh: {fileID: 11400000, guid: d933c057a1a66f64797cdbb0cf20e4a2,
+      type: 2}
+    fontAsset: {fileID: 0}
+    applyBold: 0
+  - LanguageID: ja
+    LanguageTitle: Japonese
+    LanguageIcon: {fileID: 0}
+    changeFontOnSwap: 1
+    fontAssetTextMesh: {fileID: 11400000, guid: 1724b0a56d8a674428bbc5cf2e88c79e,
+      type: 2}
+    fontAsset: {fileID: 0}
+    applyBold: 0
+  - LanguageID: ko
+    LanguageTitle: Korean
+    LanguageIcon: {fileID: 0}
+    changeFontOnSwap: 1
+    fontAssetTextMesh: {fileID: 11400000, guid: 78f760dde89681d43838cbdf31be5af3,
+      type: 2}
+    fontAsset: {fileID: 0}
+    applyBold: 0
+  TextEntries:
+  - TextID: text_change_language
+    Translations:
+    - LanguageID: en
+      TranslatedText: Change Language
+    - LanguageID: pt
+      TranslatedText: Alterar idioma
+    - LanguageID: zh
+      TranslatedText: "\u66F4\u6539\u8BED\u8A00"
+    - LanguageID: ja
+      TranslatedText: "\u8A00\u8A9E\u3092\u5909\u66F4"
+    - LanguageID: ko
+      TranslatedText: "\uC5B8\uC5B4 \uBCC0\uACBD"
+  - TextID: text_single_player
+    Translations:
+    - LanguageID: en
+      TranslatedText: Single Player
+    - LanguageID: pt
+      TranslatedText: Jogador Unico
+    - LanguageID: zh
+      TranslatedText: "\u5355\u4EBA\u6E38\u620F"
+    - LanguageID: ja
+      TranslatedText: "\u30B7\u30F3\u30B0\u30EB\u30D7\u30EC\u30A4\u30E4\u30FC"
+    - LanguageID: ko
+      TranslatedText: "\uC2F1\uAE00 \uD50C\uB808\uC774\uC5B4"
+  - TextID: text_multiplayer
+    Translations:
+    - LanguageID: en
+      TranslatedText: Multiplayer
+    - LanguageID: pt
+      TranslatedText: Multijogador
+    - LanguageID: zh
+      TranslatedText: "\u591A\u4EBA\u6E38\u620F"
+    - LanguageID: ja
+      TranslatedText: "\u30DE\u30EB\u30C1\u30D7\u30EC\u30A4\u30E4\u30FC"
+    - LanguageID: ko
+      TranslatedText: "\uBA40\uD2F0\uD50C\uB808\uC774\uC5B4"
+  - TextID: text_join_or_create_a_room
+    Translations:
+    - LanguageID: en
+      TranslatedText: Join or create a room
+    - LanguageID: pt
+      TranslatedText: Junte-se ou crie uma sala
+    - LanguageID: zh
+      TranslatedText: "\u52A0\u5165\u6216\u521B\u5EFA\u623F\u95F4"
+    - LanguageID: ja
+      TranslatedText: "\u30EB\u30FC\u30E0\u306B\u53C2\u52A0\u307E\u305F\u306F\u4F5C\u6210\u3059\u308B"
+    - LanguageID: ko
+      TranslatedText: "\uBC29\uC5D0 \uCC38\uC5EC\uD558\uAC70\uB098 \uBC29\uC744 \uB9CC\uB4DC\uC138\uC694"

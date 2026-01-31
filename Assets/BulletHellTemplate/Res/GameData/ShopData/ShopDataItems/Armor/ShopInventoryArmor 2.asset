@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8064c50046fe446998d8bfb9c6d228, type: 3}
+  m_Name: ShopInventoryArmor 2
+  m_EditorClassIdentifier: 
+  itemId: 10002
+  itemTitle: Armor Rare
+  itemTitleTranslated: []
+  itemDescription: Unlock Armor Rare
+  itemDescriptionTranslated: []
+  price: 200
+  currency: GO
+  itemIcon: {fileID: 21300000, guid: 4dfdf4be86af6914d9c37f64b2e64cc3, type: 3}
+  category: item
+  isCurrencyPackage: 0
+  currencyRewards: []
+  icons: []
+  frames: []
+  characterData: []
+  inventoryItems:
+  - {fileID: 11400000, guid: 5a2974376a9147742970e2231767d5b3, type: 2}

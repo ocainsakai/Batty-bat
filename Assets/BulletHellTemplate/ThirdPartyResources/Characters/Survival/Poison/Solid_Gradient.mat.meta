@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4fd2d54c87b728f4fb47d440889ac911
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Survival/Poison/Solid_Gradient.mat
+  uploadId: 741232

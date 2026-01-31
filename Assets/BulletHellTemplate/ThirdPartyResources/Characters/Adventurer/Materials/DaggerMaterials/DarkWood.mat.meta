@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 949ca669bbe3e1046892e9033ee74b64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Materials/DaggerMaterials/DarkWood.mat
+  uploadId: 741232

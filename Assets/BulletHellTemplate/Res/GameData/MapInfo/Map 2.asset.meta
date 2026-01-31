@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e8b6925a5f00204485f131d6c8750f5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/MapInfo/Map 2.asset
+  uploadId: 741232

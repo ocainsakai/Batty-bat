@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34c0f35309a663b419cb418058f8f227
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/FX/HitEffect/Prefabs/Grass_HitEffect.prefab
+  uploadId: 741232

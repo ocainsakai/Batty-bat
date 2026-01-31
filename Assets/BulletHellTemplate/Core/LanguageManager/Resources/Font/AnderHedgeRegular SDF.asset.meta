@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6985df91ad811754cb70adda138e9acb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/LanguageManager/Resources/Font/AnderHedgeRegular
+    SDF.asset
+  uploadId: 741232

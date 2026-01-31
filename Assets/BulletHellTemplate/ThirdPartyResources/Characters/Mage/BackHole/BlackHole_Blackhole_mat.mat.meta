@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81126e903944da947b9313c58f919fbc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Mage/BackHole/BlackHole_Blackhole_mat.mat
+  uploadId: 741232

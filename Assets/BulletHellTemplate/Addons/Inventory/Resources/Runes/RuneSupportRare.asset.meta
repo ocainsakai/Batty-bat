@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e88695fcd4dde84e9347bb27f460265
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Runes/RuneSupportRare.asset
+  uploadId: 741232

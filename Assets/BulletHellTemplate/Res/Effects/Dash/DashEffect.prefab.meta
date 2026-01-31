@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6209774049a0cc940b023fc77297ed4d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/Dash/DashEffect.prefab
+  uploadId: 741232

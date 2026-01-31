@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4313d6d9334047e4f8d18a1f192cb88c, type: 3}
+  m_Name: Damage
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+  maxLevelIcon: {fileID: 21300000, guid: e044c864490fc92468acf85aab1db21c, type: 3}
+  statType: 5
+  fixedStat:
+    values:
+    - 10
+    - 15
+    - 20
+    - 25
+    - 30
+  rateStat:
+    rates:
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5

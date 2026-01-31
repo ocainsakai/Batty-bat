@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd4b200f25215a54dad8e7aec4af5e40
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/UI/UILogin.prefab
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b4d37786979e1e4fbde8c547f052d25
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/ShurikenSkill/Materials/gltf_embedded_0.mat
+  uploadId: 741232

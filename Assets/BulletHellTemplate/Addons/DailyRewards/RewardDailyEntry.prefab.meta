@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed70b82c28b9c144cb980dfa5702e03b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/DailyRewards/RewardDailyEntry.prefab
+  uploadId: 741232

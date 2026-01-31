@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc1bd71a23d14c14583f6fcc057fb529
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Mage/Orb/Atlas.mat
+  uploadId: 741232

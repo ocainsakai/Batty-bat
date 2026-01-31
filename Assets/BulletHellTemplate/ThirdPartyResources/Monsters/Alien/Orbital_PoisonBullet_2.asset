@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40792deab56220646ab7b470f05becd1, type: 3}
+  m_Name: Orbital_PoisonBullet_2
+  m_EditorClassIdentifier: Assembly-CSharp:BulletHellTemplate:MonsterSkill
+  skillName: 
+  icon: {fileID: 0}
+  damageType: {fileID: 11400000, guid: b0bee3aa2a5a25e449ec187a43a15915, type: 2}
+  cooldown: 8
+  damagePrefab: {fileID: -7364722898387050947, guid: 03890ae9b8fa2e74196845bf077d58b7,
+    type: 3}
+  spawnOffset: {x: 0, y: 0, z: 0}
+  baseDamage: 50
+  launchSpeed: 6
+  lifeTime: 5
+  minDistance: 3
+  animationIndex: 0
+  delayToLaunch: 0.3
+  delayToMove: 1
+  spawnEffect: {fileID: 0}
+  spawnAudio: {fileID: 0}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 8300000, guid: 9e09c879c3f9ed0438025a991e20c2b5, type: 3}
+  playSkillAudioEaShot: 0
+  playSkillAudioAfter: 0
+  HitEffect: {fileID: 2229347667842700779, guid: 709fe9e2bea0d3c4e9af33a457096119,
+    type: 3}
+  HitAudio: {fileID: 8300000, guid: c29be2aded73830418577a4a8d7ba675, type: 3}
+  isMultiShot: 1
+  shots: 6
+  angle: 0
+  delayBetweenShots: 0
+  isAdvancedMultiShot: 0
+  shotWaves:
+  - shotCount: 6
+    shotAngles: []
+    useInitialAngle: 0
+    initialAngle: 0
+    delayBetweenShots: 0
+    delayBeforeNextWave: 0
+  isOrbital: 1
+  orbitalDistance: 4
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 3
+  dashDuration: 0.3
+  isTrapSkill: 0
+  trapPrefab: {fileID: 0}
+  trapLifetime: 6
+  isRicochet: 1
+  isBoomerang: 0
+  maxBoomerangDistance: 0
+  isMelee: 0
+  isRanged: 1
+  slow:
+    enable: 0
+    percent: 0
+    duration: 0
+  stun:
+    enable: 0
+    duration: 0
+  knockback:
+    enable: 0
+    distance: 0
+    duration: 0
+  dot:
+    enable: 0
+    totalDamage: 0
+    duration: 0
+  healSelf:
+    enable: 0
+    amount: 0
+  healTrap:
+    enable: 0
+    healPerTick: 0
+    tickInterval: 0
+    lifeTime: 0

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: MultiFireball
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: ee1f01fa8af3d454aa6b9808f23aa93c, type: 3}
+  iconEvolved: {fileID: 21300000, guid: ee1f01fa8af3d454aa6b9808f23aa93c, type: 3}
+  frameEvolved: {fileID: 21300000, guid: c0e67c4aea28b5b49aca0bb064d3281d, type: 3}
+  skillName: Orbital Fireballs
+  skillDescription: Throws orbs that orbit around the character
+  damageType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  delayToLaunch: 0.3
+  cooldown: 10
+  isHpLeech: 0
+  damageEntityPrefab: {fileID: 3905412019331826984, guid: 1759f5f6baeba224baffd541dad0aed6,
+    type: 3}
+  evolvedDamageEntityPrefab: {fileID: 3905412019331826984, guid: 1759f5f6baeba224baffd541dad0aed6,
+    type: 3}
+  isMultiShot: 1
+  shots: 6
+  angle: 30
+  delay: 0.1
+  evolveChanges: 1
+  shotsEvolved: 12
+  angleEvolved: 30
+  delayEvolved: 0
+  isOrbital: 1
+  orbitalDistance: 3
+  isDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  isShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0
+  slowDuration: 0
+  apllyKnockback: 0
+  knockbackDistance: 0
+  knockbackDuration: 0
+  apllyStun: 0
+  stunDuration: 0
+  apllyDOT: 0
+  dotAmount: 0
+  dotDuration: 0
+  isRotateToEnemy: 0
+  rotateDuration: 0
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 20
+    lifeTime: 5
+    isEvolved: 0
+  - baseDamage: 50
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 20
+    lifeTime: 5
+    isEvolved: 0
+  - baseDamage: 75
+    attackerDamageRate: 1.15
+    canCauseCriticalDamage: 1
+    speed: 20
+    lifeTime: 5
+    isEvolved: 0
+  - baseDamage: 100
+    attackerDamageRate: 1.2
+    canCauseCriticalDamage: 1
+    speed: 20
+    lifeTime: 5
+    isEvolved: 0
+  - baseDamage: 200
+    attackerDamageRate: 2
+    canCauseCriticalDamage: 1
+    speed: 20
+    lifeTime: 2
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 15e68327d77feed498096f09ea362fb5,
+    type: 2}

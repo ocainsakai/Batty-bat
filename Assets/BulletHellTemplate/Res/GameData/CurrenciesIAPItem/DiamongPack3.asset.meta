@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43a57a4dd825cda43b9e4e4cd47474cd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/CurrenciesIAPItem/DiamongPack3.asset
+  uploadId: 741232

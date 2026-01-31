@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 71bf0131b821bae458eb733f5b855bda
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Hat/HatUncommon.asset
+  uploadId: 741232

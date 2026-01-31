@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a2974376a9147742970e2231767d5b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Armors/ArmorRare.asset
+  uploadId: 741232

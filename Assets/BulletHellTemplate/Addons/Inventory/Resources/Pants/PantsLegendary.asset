@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 229cc8767f81895408221d7421e3cdef, type: 3}
+  m_Name: PantsLegendary
+  m_EditorClassIdentifier: 
+  title: Pants Legendary
+  titleTranslatedByLanguage: []
+  description: Pants Slot
+  descriptionTranslatedByLanguage: []
+  itemId: pants3
+  category: Defense
+  itemIcon: {fileID: 21300000, guid: ccbbd9292f44d3b4f98ec77ce3f6235e, type: 3}
+  itemStats:
+    baseHP: 200
+    baseHPRegen: 0
+    baseHPLeech: 0
+    baseMP: 0
+    baseMPRegen: 0
+    baseDamage: 20
+    baseAttackSpeed: 0
+    baseCooldownReduction: 0
+    baseCriticalRate: 0
+    baseCriticalDamageMultiplier: 0
+    baseDefense: 6
+    baseShield: 0
+    baseMoveSpeed: 0
+    baseCollectRange: 0
+    baseMaxStats: 0
+    baseMaxSkills: 0
+  itemUpgrades:
+  - statIncreasePercentagePerLevel: 0.15
+    currencyTag: GO
+    upgradeCosts: 15
+    successRate: 1
+    decreaseLevelIfFail: 0
+  - statIncreasePercentagePerLevel: 0.3
+    currencyTag: GO
+    upgradeCosts: 20
+    successRate: 0.316
+    decreaseLevelIfFail: 0
+  - statIncreasePercentagePerLevel: 0.6
+    currencyTag: GO
+    upgradeCosts: 30
+    successRate: 0.24
+    decreaseLevelIfFail: 0
+  - statIncreasePercentagePerLevel: 1.2
+    currencyTag: GO
+    upgradeCosts: 40
+    successRate: 0.1
+    decreaseLevelIfFail: 1
+  isUnlocked: 0
+  rarity: 4
+  slot: Pants

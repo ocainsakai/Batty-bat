@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bcdb3750006a8d4186fe32c29d1bce4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Models/Grey.mat
+  uploadId: 741232

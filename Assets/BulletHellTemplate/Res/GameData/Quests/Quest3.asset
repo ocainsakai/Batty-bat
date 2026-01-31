@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e609f2ba968db664da9b9eb9d81d14cb, type: 3}
+  m_Name: Quest3
+  m_EditorClassIdentifier: 
+  questId: 3
+  icon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+  title: Defeating Monsters III
+  titleTranslated:
+  - LanguageId: en
+    Translate: Defeating Monsters III
+  - LanguageId: pt
+    Translate: Derrotando os Monstros III
+  - LanguageId: zh
+    Translate: "\u51FB\u8D25\u602A\u7269 III"
+  - LanguageId: ja
+    Translate: "\u30E2\u30F3\u30B9\u30BF\u30FC\u8A0E\u4F10 III"
+  - LanguageId: ko
+    Translate: "\uBAAC\uC2A4\uD130 \uCC98\uCE58 III"
+  description: Defeat 1000 monsters
+  descriptionTranslated:
+  - LanguageId: en
+    Translate: Defeat 1000 monsters
+  - LanguageId: pt
+    Translate: Derrote 1000 monstros
+  - LanguageId: zh
+    Translate: "\u51FB\u8D25 1000 \u53EA\u602A\u7269"
+  - LanguageId: ja
+    Translate: "\u30E2\u30F3\u30B9\u30BF\u30FC\u30921000\u4F53\u5012\u3059"
+  - LanguageId: ko
+    Translate: "\uBAAC\uC2A4\uD130 1000\uB9C8\uB9AC \uCC98\uCE58"
+  currencyReward: GO
+  currencyAmount: 200
+  battlePassExp: 200
+  accountExp: 170
+  selectedCharacterExp: 100
+  questReward: 0
+  characterData: {fileID: 0}
+  iconItem: {fileID: 0}
+  frameItem: {fileID: 0}
+  inventoryItem: {fileID: 0}
+  requirement:
+    requirementType: 0
+    targetAmount: 1000
+    targetMap: {fileID: 11400000, guid: b00671e521b8bc8458f8a3f7bab30ba7, type: 2}
+    targetCharacter: {fileID: 0}
+  questType: 0

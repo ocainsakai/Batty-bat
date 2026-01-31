@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e055485bf99a7874ca86fdc858b76297
+timeCreated: 1535028760
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Effects/DaggerEffect/Materials/DagFire.mat
+  uploadId: 741232

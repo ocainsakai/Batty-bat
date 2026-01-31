@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d8df64c22a72ac45af40b58d897557f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/ShurikenSkill/Shuriken.controller
+  uploadId: 741232

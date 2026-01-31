@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e5c402da823ea444bb254992068a3e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Monsters/MiniBossController.controller
+  uploadId: 741232

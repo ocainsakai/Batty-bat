@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cdf1ef08b584a43a2c1827e6b92c06, type: 3}
+  m_Name: TicketName
+  m_EditorClassIdentifier: 
+  coinName: TicketName
+  coinID: TKN
+  icon: {fileID: 21300000, guid: 68d17aab30c754b599902da691dd0e9c, type: 3}
+  initialAmount: 10
+  useMaxAmount: 0
+  maxAmount: 100
+  canExceedMaxValue: 1
+  isRechargeableCurrency: 0
+  rechargeableTimeScale: 0
+  rechargeableTime: 60
+  rechargeAmount: 0
+  RechargeWhileOffline: 0

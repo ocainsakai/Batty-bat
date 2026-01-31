@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: WarriorAA
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: e6595d731dcab614fb0110c390c23b53, type: 3}
+  iconEvolved: {fileID: 21300000, guid: e6595d731dcab614fb0110c390c23b53, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 80258322b9918f54a8754bf40528de3f, type: 3}
+  skillName: Normal Ball
+  skillDescription: 
+  damageType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  delayToLaunch: 0.25
+  cooldown: 5
+  autoAttackDelay: 1
+  isHpLeech: 1
+  damageEntityPrefab: {fileID: 6784418925830046769, guid: 82e8cc92d86696e4aae403c7c60d8702,
+    type: 3}
+  evolvedDamageEntityPrefab: {fileID: 6784418925830046769, guid: 82e8cc92d86696e4aae403c7c60d8702,
+    type: 3}
+  destroyOnFirstHit: 0
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  spawnEffect: {fileID: 0}
+  effectDuration: 0
+  spawnAudio: {fileID: 8300000, guid: 476c4e63abcb0f34abbf7c40bcdea701, type: 3}
+  skillAudio: {fileID: 0}
+  playSkillAudioAfter: 0.15
+  isMultiShot: 0
+  shots: 1
+  angle: 0
+  delay: 0
+  evolveChanges: 0
+  shotsEvolved: 0
+  angleEvolved: 30
+  delayEvolved: 0
+  isOrbital: 0
+  orbitalDistance: 0
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  isShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  isMelee: 1
+  applySlow: 0
+  slowPercent: 0
+  slowDuration: 0
+  applyKnockback: 0
+  knockbackDistance: 1.1
+  knockbackDuration: 0.125
+  applyStun: 0
+  stunDuration: 0
+  applyDOT: 1
+  dotAmount: 50
+  dotDuration: 2
+  isRotateToEnemy: 0
+  rotateDuration: 1
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 0
+    lifeTime: 0.6
+    isEvolved: 0
+  - baseDamage: 50
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 0
+    lifeTime: 0.6
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 43558336e87331e42ae9f2d8855802a1,
+    type: 2}

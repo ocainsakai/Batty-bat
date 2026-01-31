@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: afef6181c6c02dd469a279eaf4b2fcbe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/ShopData/ShopDataItems/Pants/ShopInventoryPants
+    4.asset
+  uploadId: 741232

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 150b5978aaff27b4ebd43d018ff92c93
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/LanguageManager/Resources/third-party.txt
+  uploadId: 741232

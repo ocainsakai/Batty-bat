@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d469559dfaa8fe94aba3eea9b46ff54d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Survival/MultiPoisonousBottles.asset
+  uploadId: 741232

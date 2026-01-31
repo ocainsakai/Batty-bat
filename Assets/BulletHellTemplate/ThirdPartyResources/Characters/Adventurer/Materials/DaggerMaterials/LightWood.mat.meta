@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7718c175404b37d46a2ca42cfee5f771
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/Materials/DaggerMaterials/LightWood.mat
+  uploadId: 741232

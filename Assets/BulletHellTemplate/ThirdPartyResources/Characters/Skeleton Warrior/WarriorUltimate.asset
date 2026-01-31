@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: WarriorUltimate
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: b90ddc328c34a5d45bb52a5ac9cbb13c, type: 3}
+  iconEvolved: {fileID: 21300000, guid: b90ddc328c34a5d45bb52a5ac9cbb13c, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 80258322b9918f54a8754bf40528de3f, type: 3}
+  skillName: Metallic kingdom
+  skillDescription: Summons 12 spinning metal orbs
+  damageType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  delayToLaunch: 0.3
+  cooldown: 5
+  autoAttackDelay: 1
+  isHpLeech: 1
+  damageEntityPrefab: {fileID: 3905412019331826984, guid: f7f94f64bffacfe489446111d57cec5a,
+    type: 3}
+  evolvedDamageEntityPrefab: {fileID: 3905412019331826984, guid: f7f94f64bffacfe489446111d57cec5a,
+    type: 3}
+  destroyOnFirstHit: 0
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  spawnEffect: {fileID: 2703960052037390760, guid: 0dad39f8f6dcc994393519eddf3ffd87,
+    type: 3}
+  effectDuration: 1
+  spawnAudio: {fileID: 8300000, guid: 74bf8b6936218344988ebd8a4202c75d, type: 3}
+  skillAudio: {fileID: 0}
+  playSkillAudioAfter: 0.15
+  isMultiShot: 1
+  shots: 5
+  angle: 0
+  delay: 0
+  evolveChanges: 0
+  shotsEvolved: 0
+  angleEvolved: 30
+  delayEvolved: 0
+  isOrbital: 1
+  orbitalDistance: 1.2
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  isShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0
+  slowDuration: 0
+  applyKnockback: 0
+  knockbackDistance: 1.1
+  knockbackDuration: 0.125
+  applyStun: 0
+  stunDuration: 1
+  applyDOT: 0
+  dotAmount: 0
+  dotDuration: 0
+  isRotateToEnemy: 0
+  rotateDuration: 1
+  skillLevels:
+  - baseDamage: 50
+    attackerDamageRate: 0.5
+    canCauseCriticalDamage: 1
+    speed: 15
+    lifeTime: 3
+    isEvolved: 0
+  - baseDamage: 100
+    attackerDamageRate: 0.75
+    canCauseCriticalDamage: 1
+    speed: 15
+    lifeTime: 3
+    isEvolved: 0
+  - baseDamage: 150
+    attackerDamageRate: 1.15
+    canCauseCriticalDamage: 1
+    speed: 15
+    lifeTime: 3
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 32b3b6fc010f7074283da69f5a8dff6f,
+    type: 2}

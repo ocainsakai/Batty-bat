@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e609f2ba968db664da9b9eb9d81d14cb, type: 3}
+  m_Name: Quest4
+  m_EditorClassIdentifier: 
+  questId: 4
+  icon: {fileID: 21300000, guid: daf935fdbc5b6484ea9ac456d27c35f8, type: 3}
+  title: Saving the Day
+  titleTranslated:
+  - LanguageId: en
+    Translate: Saving the Day
+  - LanguageId: pt
+    Translate: Salvando o Dia
+  - LanguageId: zh
+    Translate: "\u62EF\u6551\u4E16\u754C"
+  - LanguageId: ja
+    Translate: "\u4E16\u754C\u3092\u6551\u3048"
+  - LanguageId: ko
+    Translate: "\uD558\uB8E8\uB97C \uAD6C\uD558\uB77C"
+  description: Defeat 1000 monsters
+  descriptionTranslated:
+  - LanguageId: en
+    Translate: Defeat 1000 monsters
+  - LanguageId: pt
+    Translate: Derrote 1000 monstros
+  - LanguageId: zh
+    Translate: "\u51FB\u8D25 1000 \u53EA\u602A\u7269"
+  - LanguageId: ja
+    Translate: "\u30E2\u30F3\u30B9\u30BF\u30FC\u30921000\u4F53\u5012\u3059"
+  - LanguageId: ko
+    Translate: "\uBAAC\uC2A4\uD130 1000\uB9C8\uB9AC \uCC98\uCE58"
+  currencyReward: DM
+  currencyAmount: 15
+  battlePassExp: 100
+  accountExp: 50
+  selectedCharacterExp: 0
+  questReward: 0
+  characterData: {fileID: 0}
+  iconItem: {fileID: 0}
+  frameItem: {fileID: 0}
+  inventoryItem: {fileID: 0}
+  requirement:
+    requirementType: 0
+    targetAmount: 1000
+    targetMap: {fileID: 0}
+    targetCharacter: {fileID: 11400000, guid: 76b57a6b10533ca468383abae788e42b, type: 2}
+  questType: 1

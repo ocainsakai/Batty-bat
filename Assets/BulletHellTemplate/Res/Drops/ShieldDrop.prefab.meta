@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 953788d63155f4f4683b613706c865cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Drops/ShieldDrop.prefab
+  uploadId: 741232

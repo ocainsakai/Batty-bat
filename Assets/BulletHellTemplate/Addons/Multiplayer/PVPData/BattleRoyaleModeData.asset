@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7def2d323f67d324381fb22b9ae65f3b, type: 3}
+  m_Name: BattleRoyaleModeData
+  m_EditorClassIdentifier: 
+  battleName: Battle Royale
+  iconPreview: {fileID: 21300000, guid: 7bf740282e9ce41409617ec078f17f0d, type: 3}
+  sceneName: PVPArenaBR
+  modeType: 2
+  maxPlayers: 2
+  zonePrefab: {fileID: 9212253505782497030, guid: a684a406f56d94e429afeb91f550f4e2,
+    type: 3}
+  initialRadius: 25
+  finalRadius: 0
+  stageDurations:
+  - 30
+  - 30
+  - 30
+  - 30
+  - 30
+  stageTargetRadius:
+  - 20
+  - 15
+  - 10
+  - 5
+  - 0
+  pauseBetweenStages: 10
+  playerDamageTakenMultiplier: 0.35
+  damagePerSecondOutside: 150
+  tickInterval: 0.5

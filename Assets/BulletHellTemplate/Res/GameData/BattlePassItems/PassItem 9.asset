@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646525a81d879f04f8f5c35cad778e63, type: 3}
+  m_Name: PassItem 9
+  m_EditorClassIdentifier: 
+  passId: 9
+  itemTitle: Gold Frame
+  itemTitleTranslated:
+  - LanguageId: en
+    Translate: Gold Frame
+  - LanguageId: pt
+    Translate: Moldura Dourada
+  - LanguageId: zh
+    Translate: "\u9EC4\u91D1\u8FB9\u6846"
+  - LanguageId: ja
+    Translate: "\u30B4\u30FC\u30EB\u30C9\u30D5\u30EC\u30FC\u30E0"
+  - LanguageId: ko
+    Translate: "\uACE8\uB4DC \uD504\uB808\uC784"
+  itemDescription: Receive an exclusive frame
+  itemDescriptionTranslated:
+  - LanguageId: en
+    Translate: Receive an exclusive frame
+  - LanguageId: pt
+    Translate: Receba uma moldura exclusiva
+  - LanguageId: zh
+    Translate: "\u9886\u53D6\u4E13\u5C5E\u8FB9\u6846"
+  - LanguageId: ja
+    Translate: "\u9650\u5B9A\u30D5\u30EC\u30FC\u30E0\u3092\u53D7\u3051\u53D6\u308B"
+  - LanguageId: ko
+    Translate: "\uB3C5\uC810 \uD504\uB808\uC784 \uBC1B\uAE30"
+  itemIcon: {fileID: 21300000, guid: 65e6361d6bac4fb4684af370f0a56e06, type: 3}
+  rewardType: 3
+  rewardTier: 1
+  characterData: []
+  currencyReward:
+    currency: {fileID: 0}
+    amount: 0
+  iconReward: {fileID: 0}
+  frameReward: {fileID: 11400000, guid: 6633fe940198e48468bed1e57a5664cd, type: 2}
+  inventoryItems: []

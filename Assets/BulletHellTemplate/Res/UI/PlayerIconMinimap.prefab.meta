@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc5e0645bac271546992a904b6c61d2f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/UI/PlayerIconMinimap.prefab
+  uploadId: 741232

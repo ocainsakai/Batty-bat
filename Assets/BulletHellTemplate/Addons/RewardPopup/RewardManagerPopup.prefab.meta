@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0c94b09dfa2d75242b80f9fb5bf6bb7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/RewardPopup/RewardManagerPopup.prefab
+  uploadId: 741232

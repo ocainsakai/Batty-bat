@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63e6b040c5b36eb4898c19c2799592e2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/UIElements/MapEntry.prefab
+  uploadId: 741232

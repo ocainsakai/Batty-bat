@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c465c6cabd8b6754387850965d5d2c54
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/UIElements/UpgradeEntryPrefab.prefab
+  uploadId: 741232

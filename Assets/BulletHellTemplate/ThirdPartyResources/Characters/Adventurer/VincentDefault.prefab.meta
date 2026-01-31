@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 993d3c79a007c584e85d5c744d658032
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/VincentDefault.prefab
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6d9a4077b9a6014aa7db5696efe9027
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/ShopData/ShopFrame3.asset
+  uploadId: 741232

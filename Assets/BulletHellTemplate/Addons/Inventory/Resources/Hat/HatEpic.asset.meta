@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68460fc4dec28b7448bbc3c5526c7d06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/Hat/HatEpic.asset
+  uploadId: 741232

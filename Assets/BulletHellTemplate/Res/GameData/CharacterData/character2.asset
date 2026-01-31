@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8463ac8c2de284e8e4f862016807f0, type: 3}
+  m_Name: character2
+  m_EditorClassIdentifier: 
+  characterName: Gregory
+  characterNameTranslated:
+  - LanguageId: en
+    Translate: Gregory
+  - LanguageId: pt
+    Translate: Gregory
+  - LanguageId: zh
+    Translate: "\u683C\u96F7\u6208\u91CC"
+  - LanguageId: ja
+    Translate: "\u30B0\u30EC\u30B4\u30EA\u30FC"
+  - LanguageId: ko
+    Translate: "\uADF8\uB808\uACE0\uB9AC"
+  characterDescription: A frail yet cunning survivor, Gregory conjures poisonous
+    orbs that burst into corrosive pools, melting enemies who dare approach.
+  characterDescriptionTranslated:
+  - LanguageId: en
+    Translate: A frail yet cunning survivor, Gregory conjures poisonous orbs that
+      burst into corrosive pools, melting enemies who dare approach.
+  - LanguageId: pt
+    Translate: "Um sobrevivente fr\xE1gil, por\xE9m astuto, Gregory conjura orbes
+      venenosos que explodem em po\xE7as corrosivas, derretendo inimigos que ousam
+      se aproximar."
+  - LanguageId: zh
+    Translate: "\u4E00\u4E2A\u8106\u5F31\u4F46\u72E1\u733E\u7684\u751F\u5B58\u8005\uFF0C\u683C\u96F7\u6208\u91CC\u53EC\u5524\u51FA\u6BD2\u7403\uFF0C\u5B83\u4EEC\u7206\u88C2\u6210\u8150\u8680\u6027\u7684\u6C60\u5858\uFF0C\u878D\u5316\u4EFB\u4F55\u80C6\u6562\u9760\u8FD1\u7684\u654C\u4EBA\u3002"
+  - LanguageId: ja
+    Translate: "\u304B\u5F31\u304F\u3082\u72E1\u733E\u306A\u751F\u5B58\u8005\u3001\u30B0\u30EC\u30B4\u30EA\u30FC\u306F\u6BD2\u306E\u30AA\u30FC\u30D6\u3092\u53EC\u559A\u3057\u3001\u305D\u308C\u304C\u7206\u767A\u3057\u3066\u8150\u98DF\u6027\u306E\u6C60\u3092\u4F5C\u308A\u3001\u8FD1\u3065\u304F\u6575\u3092\u6EB6\u304B\u3059\u3002"
+  - LanguageId: ko
+    Translate: "\uC5F0\uC57D\uD558\uC9C0\uB9CC \uAD50\uD65C\uD55C \uC0DD\uC874\uC790\uC778
+      \uADF8\uB808\uACE0\uB9AC\uB294 \uB3C5\uAD6C\uCCB4\uB97C \uC18C\uD658\uD558\uC5EC
+      \uD130\uB728\uB824 \uBD80\uC2DD\uC131 \uC6C5\uB369\uC774\uB97C \uB9CC\uB4E4\uACE0,
+      \uB2E4\uAC00\uC624\uB294 \uC801\uC744 \uB179\uC778\uB2E4."
+  characterId: 1
+  characterType: {fileID: 11400000, guid: b0bee3aa2a5a25e449ec187a43a15915, type: 2}
+  icon: {fileID: 21300000, guid: 5d5c0ce50cd33d746ac03d33f025641a, type: 3}
+  tierIcon: {fileID: 21300000, guid: efec4c0752ba7a343ad7672ba955fc95, type: 3}
+  characterClassType: Mage
+  characterClassTranslated:
+  - LanguageId: en
+    Translate: Mage
+  - LanguageId: pt
+    Translate: Mago
+  - LanguageId: zh
+    Translate: "\u6CD5\u5E08"
+  - LanguageId: ja
+    Translate: "\u30E1\u30A4\u30B8"
+  - LanguageId: ko
+    Translate: "\uBA54\uC774\uC9C0"
+  characterClassIcon: {fileID: 21300000, guid: f47f7e8121197124ebd60054d4bed1c2, type: 3}
+  characterRarity: 0
+  characterModel: {fileID: 4433698986334273354, guid: 747f83cea363efa46b4adce79834ed63,
+    type: 3}
+  characterSkins:
+  - skinIcon: {fileID: 21300000, guid: 5d5c0ce50cd33d746ac03d33f025641a, type: 3}
+    skinName: Gregory
+    skinNameTranslated:
+    - LanguageId: en
+      Translate: Gregory
+    - LanguageId: pt
+      Translate: Gregory
+    - LanguageId: zh
+      Translate: "\u683C\u96F7\u6208\u91CC"
+    - LanguageId: ja
+      Translate: "\u30B0\u30EC\u30B4\u30EA\u30FC"
+    - LanguageId: ko
+      Translate: "\uADF8\uB808\uACE0\uB9AC"
+    skinCharacterModel: {fileID: 4433698986334273354, guid: 747f83cea363efa46b4adce79834ed63,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: 
+    unlockPrice: 0
+  - skinIcon: {fileID: 21300000, guid: 5d5c0ce50cd33d746ac03d33f025641a, type: 3}
+    skinName: Golden Gregory
+    skinNameTranslated: []
+    skinCharacterModel: {fileID: 4433698986334273354, guid: 4850e42a87c632a45add343a29405f4c,
+      type: 3}
+    isUnlocked: 1
+    unlockCurrencyId: DM
+    unlockPrice: 500
+  autoAttack: {fileID: 11400000, guid: 28bc4218c14ee374bb69e67f5c88bb05, type: 2}
+  skills:
+  - {fileID: 11400000, guid: a6c7dbe51980a9c46b6488e11faeaf13, type: 2}
+  - {fileID: 11400000, guid: d469559dfaa8fe94aba3eea9b46ff54d, type: 2}
+  - {fileID: 11400000, guid: 7f5c09f6a0741e54caf7f0eff4da4e1c, type: 2}
+  itemSlots:
+  - Head
+  - Armor
+  - Pants
+  - Shoes
+  runeSlots:
+  - Rune Universal
+  - Rune Defense
+  - Rune Attack
+  - Rune Support
+  isUnlock: 1
+  baseStats:
+    baseHP: 800
+    baseHPRegen: 2
+    baseHPLeech: 0.01
+    baseMP: 100
+    baseMPRegen: 6
+    baseDamage: 80
+    baseAttackSpeed: 3
+    baseCooldownReduction: 0
+    baseCriticalRate: 0.2
+    baseCriticalDamageMultiplier: 2
+    baseDefense: 0
+    baseShield: 0
+    baseMoveSpeed: 2.2
+    baseCollectRange: 2
+    baseMaxStats: 3
+    baseMaxSkills: 3
+  maxLevel: 10
+  statsPercentageIncreaseByLevel: 0.1
+  expCalculationMethod: 1
+  initialExp: 20
+  finalExp: 500
+  expPerLevel: 140000001d000000290000003a0000005400000078000000ab000000f50000005e010000f4010000
+  currencyId: UP
+  upgradeCostPerLevel: 1900000026000000390000005500000081000000c200000024010000b901000098020000e8030000
+  initialUpgradeCost: 25
+  finalUpgradeCost: 1000
+  upgradeCostCalculationMethod: 1
+  statUpgrades:
+  - upgradeName: Hp Max
+    upgradeNameTranslated: []
+    statType: 0
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 8cc6b8c9d6c036e4e814b5dc5e7e7ee3, type: 3}
+    currencyTag: GO
+  - upgradeName: Damage Plus
+    upgradeNameTranslated: []
+    statType: 5
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    upgradeCosts: c8000000bc020000dc05000088130000e02e000008520000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: Collector
+    upgradeNameTranslated: []
+    statType: 13
+    upgradeMaxLevel: 5
+    upgradeAmounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000000000000000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4327535cf4375bd458312464b38a001c, type: 3}
+    currencyTag: GO
+  - upgradeName: More Stats
+    upgradeNameTranslated: []
+    statType: 14
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 7e1384cc47294ad438fe1d2bc8f868a0, type: 3}
+    currencyTag: GO
+  - upgradeName: More Skills
+    upgradeNameTranslated: []
+    statType: 15
+    upgradeMaxLevel: 2
+    upgradeAmounts:
+    - 1
+    - 1
+    upgradeCosts: 0000000000000000
+    upgradeIcon: {fileID: 21300000, guid: 4cbe8b484af4177408535d945b02ee66, type: 3}
+    currencyTag: GO

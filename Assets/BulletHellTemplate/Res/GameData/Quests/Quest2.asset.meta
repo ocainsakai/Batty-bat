@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3888f4b8beeddaa4c82531a8a7a1b18c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/Quests/Quest2.asset
+  uploadId: 741232

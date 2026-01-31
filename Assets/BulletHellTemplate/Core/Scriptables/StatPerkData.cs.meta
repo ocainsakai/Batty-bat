@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4313d6d9334047e4f8d18a1f192cb88c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/Scriptables/StatPearkData.cs
+  uploadId: 741232

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b6776b6eb3326a4ea31e35ac2c45cef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/SkeletonGunner/Models/Skeleton_Rogue.prefab
+  uploadId: 741232

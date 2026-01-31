@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3fddd892c6095a14a9f154c68d2d66e1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/FX/HitEffect/Prefabs/Water_HitEffect.prefab
+  uploadId: 741232

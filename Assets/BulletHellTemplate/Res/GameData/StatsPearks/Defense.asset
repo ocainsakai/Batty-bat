@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4313d6d9334047e4f8d18a1f192cb88c, type: 3}
+  m_Name: Defense
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 64f589a4cadafd04c93ae8198882642f, type: 3}
+  maxLevelIcon: {fileID: 21300000, guid: a35c8339ae9ff0443a7537873f361a6c, type: 3}
+  statType: 9
+  fixedStat:
+    values:
+    - 10
+    - 15
+    - 20
+    - 25
+    - 30
+  rateStat:
+    rates: []

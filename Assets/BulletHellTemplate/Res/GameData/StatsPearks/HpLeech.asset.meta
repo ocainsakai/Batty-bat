@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d321780e7ab413942ae9da7af5e6cb67
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/StatsPearks/HpLeech.asset
+  uploadId: 741232

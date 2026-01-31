@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0ec84c5fbf873964296473895329cdfd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/CharacterFace/Mouths/Mouth1/Material/DefaultMouth
+    1.mat
+  uploadId: 741232

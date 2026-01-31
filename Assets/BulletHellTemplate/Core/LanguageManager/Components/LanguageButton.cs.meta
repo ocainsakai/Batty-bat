@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 109d67426703af049a63a334c6314ecd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Core/LanguageManager/Components/LanguageButton.cs
+  uploadId: 741232

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6560291ee22a28d45b77bab4dc4e3b9a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/UIInventoryMenu.prefab
+  uploadId: 741232

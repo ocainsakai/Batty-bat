@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11159fcce32635446813373d03783a5e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/Inventory/Resources/InventoryEntryPrefab.prefab
+  uploadId: 741232

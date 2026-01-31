@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4eae23fad9824bd4697abcf70cee4ddd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Addons/RewardPopup/UIRewardManagerPopup.cs
+  uploadId: 741232

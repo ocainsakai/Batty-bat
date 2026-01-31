@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43558336e87331e42ae9f2d8855802a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/StatsPearks/attackSpeed.asset
+  uploadId: 741232

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4938ca54b0c7445449e4fea572b22291
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Adventurer/SkillData/Dash.asset
+  uploadId: 741232

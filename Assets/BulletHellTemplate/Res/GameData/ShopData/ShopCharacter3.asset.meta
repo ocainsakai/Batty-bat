@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 377b41bc59860a14ab7aff7ee4a1e3d0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/Resources/ShopData/ShopCharacter3.asset
+  uploadId: 741232

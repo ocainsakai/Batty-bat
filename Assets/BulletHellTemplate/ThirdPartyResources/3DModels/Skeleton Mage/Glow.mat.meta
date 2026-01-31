@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bbe6b272c22f6154a84ec8e5e7c4952b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Skeleton Mage/Glow.mat
+  uploadId: 741232

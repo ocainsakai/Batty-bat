@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81575d16c530619418b314466346dd2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293814
+  packageName: BulletHell Elemental Template
+  packageVersion: 1.3.0
+  assetPath: Assets/BulletHellTemplate/ThirdPartyResources/Characters/Survival/Materials/SurvivalSkin1.mat
+  uploadId: 741232

@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4671126b13736444b0b5a6cd6a27e68, type: 3}
+  m_Name: DaggerAA
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: c17b66499b3074345984f6c463bc81fb, type: 3}
+  iconEvolved: {fileID: 21300000, guid: c17b66499b3074345984f6c463bc81fb, type: 3}
+  frameEvolved: {fileID: 21300000, guid: 8deeeeae7da587749ae15f8300f603c2, type: 3}
+  skillName: Auto Attack Dagger
+  skillNameTranslated: []
+  skillDescription: Throws a dagger at the nearest enemy, dealing fire damage.
+  skillDescriptionTranslated: []
+  damageType: {fileID: 11400000, guid: e7627ee3db721c14bb74474f025caa06, type: 2}
+  cooldown: 0
+  delayToLaunch: 0
+  delayToMove: 0
+  canRotateWhileStopped: 0
+  autoAttackDelay: 0
+  manaCost: 0
+  AimMode: 0
+  damageEntityPrefab: {fileID: 926067750446100022, guid: 9ae5e242e15c7494a8bd65e18812ce62,
+    type: 3}
+  spawnEffect: {fileID: 0}
+  spawnAudio: {fileID: 8300000, guid: 0d7081ee47f8a4e478f06d559c2b9adb, type: 3}
+  playSpawnAudioEaShot: 0
+  skillAudio: {fileID: 0}
+  playSkillAudioEaShot: 0
+  playSkillAudioAfter: 0.15
+  HitEffect: {fileID: 0}
+  HitAudio: {fileID: 0}
+  rangeIndicatorType: 0
+  radialIndicatorSettings:
+    radiusArea: 0
+    useCastIndicator: 0
+  radialAoEIndicatorSettings:
+    radiusMaxRange: 0
+    radiusArea: 0
+    useCastIndicator: 0
+  arrowIndicatorSettings:
+    arrowSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  coneIndicatorSettings:
+    ConeSize: {x: 0, y: 0, z: 0}
+    useCastIndicator: 0
+  launchType: 0
+  airStrikeHeight: 0
+  isRotateToEnemy: 1
+  rotateDuration: 0.35
+  destroyOnFirstHit: 1
+  sizeChangeConfig:
+    enableSizeChange: 0
+    initialSizeX: 1
+    finalSizeX: 1
+    sizeChangeTimeX: 0
+    initialSizeY: 1
+    finalSizeY: 1
+    sizeChangeTimeY: 0
+    initialSizeZ: 1
+    finalSizeZ: 1
+    sizeChangeTimeZ: 0
+  isHpLeech: 0
+  explodeOnDestroy: 0
+  explodeDamageEntity: {fileID: 0}
+  explodeEntitySettings:
+    baseDamage: 0
+    attackerDamageRate: 0
+    canCauseCriticalDamage: 0
+    speed: 0
+    lifeTime: 0
+    isEvolved: 0
+  isMultiShot: 0
+  shots: 1
+  angle: 10
+  delay: 0
+  isAdvancedMultiShot: 0
+  playAnimationEaShot: 0
+  shotWaves:
+  - shotCount: 3
+    shotAngles:
+    - 10
+    useInitialAngle: 0
+    initialAngle: 0
+    delayBetweenShots: 0
+    delayBeforeNextWave: 0.25
+  - shotCount: 3
+    shotAngles:
+    - 10
+    useInitialAngle: 1
+    initialAngle: 180
+    delayBetweenShots: 0
+    delayBeforeNextWave: 0.25
+  shotWavesEvolved: []
+  isOrbital: 0
+  orbitalDistance: 5
+  isRicochet: 0
+  isBoomerangSkill: 0
+  maxDistance: 0
+  isDash: 0
+  isReverseDash: 0
+  dashSpeed: 0
+  dashDuration: 0
+  advancedDashSettings:
+    enableAdvancedDash: 0
+    AnimationTriggerEachDash: 0
+    dashWaves: 1
+    delayBetweenWaves: 0
+    dashMode: 0
+    dashSpeed: 10
+    dashDuration: 0.3
+  isMelee: 0
+  applySlow: 0
+  slowPercent: 0.5
+  slowDuration: 0.7
+  applyKnockback: 1
+  knockbackDistance: 0.7
+  knockbackDuration: 0.1
+  applyStun: 0
+  stunDuration: 1
+  applyDOT: 0
+  dotAmount: 70
+  dotDuration: 3
+  receiveHeal: 0
+  healAmount: 0
+  receiveShield: 0
+  shieldAmount: 0
+  shieldDuration: 0
+  receiveMoveSpeed: 0
+  moveSpeedAmount: 0
+  moveSpeedDuration: 0
+  receiveAttackSpeed: 0
+  attackSpeedAmount: 0
+  attackSpeedDuration: 0
+  receiveDefense: 0
+  defenseAmount: 0
+  defenseDuration: 0
+  receiveDamage: 0
+  damageAmount: 0
+  damageDuration: 0
+  isInvincible: 0
+  invincibleDuration: 0
+  receiveSlow: 0
+  receiveSlowAmount: 0
+  receiveSlowDuration: 0
+  evolvedDamageEntityPrefab: {fileID: 926067750446100022, guid: 9ae5e242e15c7494a8bd65e18812ce62,
+    type: 3}
+  evolveChanges: 0
+  shotsEvolved: 3
+  angleEvolved: 30
+  delayEvolved: 0
+  skillLevels:
+  - baseDamage: 15
+    attackerDamageRate: 1
+    canCauseCriticalDamage: 1
+    speed: 10
+    lifeTime: 0.3
+    isEvolved: 0
+  - baseDamage: 30
+    attackerDamageRate: 1
+    canCauseCriticalDamage: 1
+    speed: 10
+    lifeTime: 0.3
+    isEvolved: 1
+  requireStatForEvolve: {fileID: 11400000, guid: 43558336e87331e42ae9f2d8855802a1,
+    type: 2}
